@@ -524,7 +524,7 @@ span.line-sep:after {
 
 .get-going {
   background:
-    url("https://s3.amazonaws.com/honeybook_cdn/assets_system/system_web/contact_page_map/contactpage_airplane.png") -60% 320px no-repeat,
+    url("https://s3.amazonaws.com/honeybook_cdn/assets_system/system_web/contact_page_map/contactpage_airplane.png") -20% 140% no-repeat,
     linear-gradient(to bottom, rgba(0, 0, 0, .4) 40%, rgba(0, 0, 0, .4) 40%), 
     url("https://s3.amazonaws.com/honeybook_cdn/assets_system/system_web/cover_slide/cover_contact.jpg") center no-repeat;
   height: 500px;
@@ -585,6 +585,14 @@ span.line-sep:after {
     font-family: 'Open Sans Condensed', sans-serif;
     text-align: center;
   }
+
+  .get-going {
+    background:
+      url("https://s3.amazonaws.com/honeybook_cdn/assets_system/system_web/contact_page_map/contactpage_airplane.png") -60% 140% no-repeat,
+      linear-gradient(to bottom, rgba(0, 0, 0, .4) 40%, rgba(0, 0, 0, .4) 40%), 
+      url("https://s3.amazonaws.com/honeybook_cdn/assets_system/system_web/cover_slide/cover_contact.jpg") center no-repeat;
+    height: 500px;
+  }
 }
 
 /* Portrait tablets and small desktops */
@@ -592,7 +600,7 @@ span.line-sep:after {
     .home-lead {
     font-size: 30px;
   }
-  
+
   .testimonials {
     height: auto;
     margin-top: 10px;
@@ -602,6 +610,14 @@ span.line-sep:after {
     padding: 10px 40px;
     font-family: 'Open Sans Condensed', sans-serif;
     text-align: center;
+  }
+
+  .get-going {
+    background:
+      url("https://s3.amazonaws.com/honeybook_cdn/assets_system/system_web/contact_page_map/contactpage_airplane.png") -160% 140% no-repeat,
+      linear-gradient(to bottom, rgba(0, 0, 0, .4) 40%, rgba(0, 0, 0, .4) 40%), 
+      url("https://s3.amazonaws.com/honeybook_cdn/assets_system/system_web/cover_slide/cover_contact.jpg") center no-repeat;
+    height: 400px;
   }
 
 }
@@ -621,6 +637,22 @@ span.line-sep:after {
     padding: 10px 40px;
     font-family: 'Open Sans Condensed', sans-serif;
     text-align: center;
+  }
+
+  .get-going {
+    background:
+      url("https://s3.amazonaws.com/honeybook_cdn/assets_system/system_web/contact_page_map/contactpage_airplane.png") -600% 400% no-repeat,
+      linear-gradient(to bottom, rgba(0, 0, 0, .4) 40%, rgba(0, 0, 0, .4) 40%), 
+      url("https://s3.amazonaws.com/honeybook_cdn/assets_system/system_web/cover_slide/cover_contact.jpg") center no-repeat;
+    height: 300px;
+  }
+
+  .footer-lead {
+    font-size: 24px;
+  }
+
+  .home-sub {
+    font-size: 14px;
   }
 }
 
