@@ -25,6 +25,10 @@ strong {
 em {
   font-style: italic; }
 
+textarea:focus, input:focus{
+    outline: 0;
+}
+
 .navbar.navbar-default {
   background: transparent !important;
   border: none !important;
@@ -96,9 +100,10 @@ em {
 }
 
 ::-webkit-input-placeholder {
-   padding-left: 10px;
-   padding-bottom: 2px;
-   font-size: 14px;
+  padding-top: 2px;
+  padding-left: 10px;
+  padding-bottom: 2px;
+  font-size: 14px;
 }
 
 .hbspt-form > label {
