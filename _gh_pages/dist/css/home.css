@@ -1,0 +1,527 @@
+/* Reset + base: */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0; }
+
+html {
+  overflow-y: scroll; }
+
+/* always show scrollbar in non-IE */
+body, input, select, textarea, button {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: "Open Sans", sans-serif; }
+
+/*a {
+  -webkit-tap-highlight-color: #2E4051; }*/
+
+img {
+  -ms-interpolation-mode: bicubic; }
+
+strong {
+  font-weight: bold; }
+
+em {
+  font-style: italic; }
+
+.navbar.navbar-default {
+  background: transparent !important;
+  border: none !important;
+}
+
+.btn-home {
+  background-color: #56aeb6;
+  border: #56aeb6;
+  padding: 1.125rem 4rem 1.1875rem;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  font-weight: 700;
+  -webkit-font-smoothing: antialiased;
+  -webkit-transition: background-color 0.15s ease-in-out;
+  -moz-transition: background-color 0.15s ease-in-out;
+  -o-transition: background-color 0.15s ease-in-out;
+  transition: background-color 0.15s ease-in-out;
+}
+
+.btn-home:hover,
+.btn-home:focus {
+  background-color: #56aeb6;
+  border: #56aeb6;
+  outline: none;
+}
+
+/* Clearfix: */
+.group:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden; }
+
+* html .group {
+  height: 1%; }
+
+/* IE6 */
+*:first-child + html .group {
+  min-height: 1px; }
+
+/* IE7 */
+/* End clearfix */
+/* End reset + base */
+
+.lead {
+  color: #666666;
+  font-family: 'open-sans' sans-serif;
+  font-weight: 600;
+
+}
+
+#lp-registration {
+  background: rgba(255,255,255,0.4);
+/*  padding: 10px 15px 20px 35px;*/
+  display: none;
+  margin: auto;
+  position: absolute;
+  width: 480px;
+  height: 182px;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+}
+
+::-webkit-input-placeholder {
+   padding-left: 10px;
+   padding-bottom: 2px;
+   font-size: 14px;
+}
+
+.hbspt-form > label {
+  display: none;
+}
+
+#firstname-7d98055d-a174-43d2-b202-d36657ea1f2e {
+  position: relative;
+  top: 55px;
+  left: -127px;
+  border: 1px solid #d2d2d2;
+  height: 42px;
+  margin: 0;
+}
+
+#lastname-7d98055d-a174-43d2-b202-d36657ea1f2e {
+  position: relative;
+top: -36px;
+left: 105px;
+border: 1px solid #d2d2d2;
+height: 42px;
+margin: 0;
+}
+
+#email-7d98055d-a174-43d2-b202-d36657ea1f2e {
+  position: relative;
+top: -91px;
+left: -127px;
+border: 1px solid #d2d2d2;
+height: 42px;
+margin: 0;
+}
+
+#company-7d98055d-a174-43d2-b202-d36657ea1f2e {
+  position: relative;
+top: -141px;
+left: -127px;
+border: 1px solid #d2d2d2;
+/* border-right: 1px solid #666666; */
+height: 42px;
+margin: 0;
+}
+
+#phone-7d98055d-a174-43d2-b202-d36657ea1f2e {
+  position: relative;
+top: -273px;
+left: 105px;
+border: 1px solid #d2d2d2;
+/* border-right: 1px solid #666666; */
+height: 42px;
+margin: 0;
+}
+
+#vendor_type-7d98055d-a174-43d2-b202-d36657ea1f2e {
+  position: relative;
+top: -323px;
+left: 105px;
+border: 1px solid #d2d2d2;
+/* border-right: 1px solid #666666; */
+height: 42px;
+margin: 0;
+}
+
+.hbspt-form {
+  margin-top: -92px;
+  margin-left: 20px;
+}
+
+.hs-button {
+  position: relative;
+  width: 464px;
+  top: -331px;
+  left: -12px;
+  height: 42px;
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+  background-color: #59bfc7;
+  background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0));
+}
+
+
+
+.community-lead {
+  font-size: 46px;
+  font-weight: 500;
+}
+
+.lead-sub {
+  font-family: 'proxima-nova' sans-serif;
+}
+
+.navbar {
+  height: 59px;
+  margin-bottom: 20px;
+  z-index: 10;
+}
+
+.navbar-brand {
+  float: left;
+  padding: 8px 15px;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.navbar-default {
+  background:transparent;
+  border-bottom:none !important;
+}
+
+.navbar-fill {
+  border-bottom: solid 1px #edeeef !important;
+  background-color: #FFFFFF;
+  transition: background 0.3s ease;
+  -webkit-transition: background 0.3s ease;
+  -moz-transition: background 0.3s ease;
+  -ms-transition: background 0.3s ease;
+  -o-transition: background 0.3s ease;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #666666;
+  font-weight: 600;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: #666666;
+/*  border-bottom: 4px solid #666666;
+  border-bottom-width: 80%;*/
+}
+
+.navbar-brand {
+  padding-right: 40px;
+}
+
+.navbar-btn {
+  margin-top: 13px;
+  margin-bottom: 8px;
+  margin-left: 30px;
+}
+
+.navbar-nav>li>a {
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+
+#top {
+  height: 600px;
+  background: #2E4051; 
+}
+
+#home {
+  position: relative;
+  height: 620px;
+  top: -80px;
+  right: 0;
+  left: 0;
+  background:
+    url("https://s3.amazonaws.com/honeybook_cdn/assets_system/system_web/cover_slide/bg_video.png") center bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/*    linear-gradient(to bottom, rgba(0, 0, 0, .2) 20%, rgba(0, 24, 48, .4) 40%) */
+/*    linear-gradient(to bottom, rgba(0, 0, 0, .2) 20%, rgba(0, 24, 48, .4) 40%) */
+
+.home-lead {
+  padding-top: 80px;
+  color: rgba(0,0,0,0.39);
+  line-height: 1.6;
+  font-weight: 700;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 70px;
+  text-shadow: 0 0px 4px rgba(133,133,133,0.37);
+}
+
+.home-sub {
+  margin: 0 auto;
+  max-width: 70%;
+  font-family: 'proxima-nova', sans-serif;
+  color: #fff;
+  margin-bottom: 20px;
+  font-weight: 300;
+  line-height: 1.7;
+}
+  
+.fa-home-container {
+  padding-top: 140px;
+  opacity: .6;
+}
+
+section {
+  border-bottom: solid 1px #edeeef;
+}
+
+.sales-process {
+  margin-top: -70px;
+  height: 420px;
+  width: 510px;
+  background-image: url('https://s3.amazonaws.com/betasales/go_to_market.png');
+  background-size: 100%;
+  overflow: visible;
+}
+
+.product-validation {
+  height: 280px;
+  width: 490px;
+  margin-left: -30px;
+  margin-top: 20px;
+  background-image: url('https://s3.amazonaws.com/betasales/constant-communication.png');
+  background-size: 100%;
+}
+
+.row-services .col-lg-3 {
+  border: solid 1px #edeeef;
+  margin: 40px;
+  padding: 2px 10px 10px 30px;
+  left: 30px;
+}
+
+.row-services .col-lg-3:hover {
+  border: solid 1px #007cf4;
+}
+
+.fa-service {
+  padding-right: 10px;
+}
+
+#startups {
+  padding-bottom: 0px;
+}
+
+.customers-break {
+  background-color: #f0f0f0;
+  margin-top: -110px;
+  padding-top: 80px;
+  padding-bottom: 60px;
+  color: #666666;
+}
+
+.community-row {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.title-break {
+  margin: 0 auto 0.9375em;
+  color: #59bfc7 !important;
+  font-size: larger;
+}
+
+.avatar-hb {
+  position: relative;
+  width: 110px;
+  height: 110px;
+  font-size: 52px;
+  margin: 0 auto;
+  display: block;
+  margin: auto;
+}
+
+.title.data-section-title {
+  cursor: pointer;
+}
+
+.avatar-1 {
+  background: url('https://s3-us-west-2.amazonaws.com/honeyvendorsprofiles/throneinvitations/throne_dena.jpg');
+  background-size: cover;
+    -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+.avatar-2 {
+  background: url('https://s3.amazonaws.com/honeybook_cdn/assets_users_production/user/5335e2fd137e79d87e000141/junshien_headshot.jpg');
+  background-size: cover;
+    -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+.avatar-3 {
+  background: url('https://s3.amazonaws.com/honeybook_cdn/assets_users_production/user/52e96161a60536a71b000060/crystal.jpg');
+  background-size: cover;
+    -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+.avatar-4 {
+  background: url('https://cdn.evbuc.com/eventlogos/8197609/sashapic.jpg');
+  background-size: cover;
+    -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+.avatar {
+  position: absolute;
+  z-index: 9999;
+  width: 110px;
+  height: 110px;
+  margin: 0 auto;
+  display: block;
+  margin: 0 auto;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+.avatar-active {
+  border: 3px solid #59bfc7;
+}
+
+.testimonials {
+  height: 300px;
+  margin-top: 10px;
+  font-size: 32px;
+  line-height: 1.3;
+  display: inline-block;
+  padding: 10px 40px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: center;
+}
+
+.title {
+  font-size: 12px;
+  line-height: 18px;
+  color: #666666;
+  font-weight: 400;
+  margin-top: 0.6em;
+  text-align: center;
+}
+
+.title > h4.name {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: bold;
+  margin-top: 0.9375em;
+}
+
+.nav-tabs {
+  border-bottom: none;
+}
+
+.tab-content.tab-pane {
+  display: none;
+}
+
+.tab-content>.active {
+  display: block;
+}
+
+span.line-sep {
+  width: 100%;
+  height: 45px;
+  display: block;
+  margin: 30px auto;
+  position: relative;
+}
+
+span.line-sep > i {
+  width: 45px;
+  height: 45px;
+  position: relative;
+  border-radius: 100%;
+  border: 3px solid white;
+  display: block;
+  margin: 0px auto;
+  color: #999999;
+  background: #eeeeee;
+  z-index: 99;
+  font-style: normal;
+}
+
+span.line-sep > i:before {
+  content: '❝';
+  text-align: center;
+  display: block;
+  font-size: 27px;
+  padding: 4px 0px;
+  position: relative;
+  width: 100%;
+}
+
+span.line-sep:after {
+  content: '';
+  border-top: 3px solid white;
+  position: absolute;
+  width: 100%;
+  margin-top: -25px;
+  left: 0;
+}
+
+.get-going {
+  background:
+    url("https://s3.amazonaws.com/honeybook_cdn/assets_system/system_web/contact_page_map/contactpage_airplane.png") -100px 320px no-repeat,
+    linear-gradient(to bottom, rgba(0, 0, 0, .4) 40%, rgba(0, 0, 0, .4) 40%), 
+    url("https://s3.amazonaws.com/honeybook_cdn/assets_system/system_web/cover_slide/cover_contact.jpg") 0% 0% no-repeat;
+  height: 500px;
+}
+
+.footer-lead {
+  margin-top: 80px;
+  font-size: 46px;
+  font-weight: 500;
+  color: #fff;
+}
+
+
+

@@ -1,0 +1,14 @@
+{
+    "name": "elasticbox/website"
+  , "description": "Define and deploy applications with a few clicks. Cloud PaaS Management"
+  , "keywords": ["ElasticBox"]
+  , "homepage": "http://www.elasticbox.com"
+  , "authors": [
+      {
+        "name": "ElasticBox",
+        "email": "info@elasticbox.com"
+      }
+    ]
+  , "license": "Apache-2.0"
+  }
+}
