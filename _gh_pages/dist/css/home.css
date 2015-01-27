@@ -88,9 +88,9 @@ textarea:focus, input:focus{
   margin: auto;
   position: relative;
   /* margin-top: 190px; */
-  width: 92%;
+  width: 417px;
   height: 200px;
-  height: 187px;
+  height: 186px;
   /* z-index: 999; */
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -178,7 +178,7 @@ textarea:focus, input:focus{
   position: relative;
   width: 399px;
   top: -426px;
-  left: -1px;
+  left: 0px;
   height: 42px;
   font-size: 14px;
   font-weight: 700;
