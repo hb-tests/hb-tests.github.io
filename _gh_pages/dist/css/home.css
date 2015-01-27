@@ -83,20 +83,21 @@ textarea:focus, input:focus{
 
 #lp-registration {
   background: rgba(255,255,255,0.4);
-/*  padding: 10px 15px 20px 35px;*/
-  display: none;
+  padding: 10px 0px 0px 0px;
+  /* display: none; */
   margin: auto;
-  position: absolute;
-  width: 480px;
-  height: 182px;
-  left: 0;
-  right: 0;
-  z-index: 999;
+  position: relative;
+  /* margin-top: 190px; */
+  width: 92%;
+  height: 200px;
+  height: 187px;
+  /* z-index: 999; */
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
   -o-border-radius: 4px;
   border-radius: 4px;
+  /* margin-top: 90px; */
 }
 
 ::-webkit-input-placeholder {
@@ -112,8 +113,9 @@ textarea:focus, input:focus{
 
 #firstname-7d98055d-a174-43d2-b202-d36657ea1f2e {
   position: relative;
-  top: 55px;
-  left: -127px;
+  width: 200px;
+  top: -45px;
+  left: -100px;
   border: 1px solid #d2d2d2;
   height: 42px;
   margin: 0;
@@ -121,62 +123,62 @@ textarea:focus, input:focus{
 
 #lastname-7d98055d-a174-43d2-b202-d36657ea1f2e {
   position: relative;
-top: -36px;
-left: 105px;
-border: 1px solid #d2d2d2;
-height: 42px;
-margin: 0;
+  width: 200px;
+  top: -136px;
+  left: 99px;
+  border: 1px solid #d2d2d2;
+  height: 42px;
+  margin: 0;
 }
 
 #email-7d98055d-a174-43d2-b202-d36657ea1f2e {
   position: relative;
-top: -91px;
-left: -127px;
-border: 1px solid #d2d2d2;
-height: 42px;
-margin: 0;
+  width: 200px;
+  top: -186px;
+  left: -100px;
+  border: 1px solid #d2d2d2;
+  height: 42px;
+  margin: 0;
 }
 
 #company-7d98055d-a174-43d2-b202-d36657ea1f2e {
   position: relative;
-top: -141px;
-left: -127px;
-border: 1px solid #d2d2d2;
-/* border-right: 1px solid #666666; */
-height: 42px;
-margin: 0;
+  width: 200px;
+  top: -236px;
+  left: -100px;
+  border: 1px solid #d2d2d2;
+  /* border-right: 1px solid #666666; */
+  height: 42px;
+  margin: 0;
 }
 
 #phone-7d98055d-a174-43d2-b202-d36657ea1f2e {
   position: relative;
-top: -273px;
-left: 105px;
-border: 1px solid #d2d2d2;
-/* border-right: 1px solid #666666; */
-height: 42px;
-margin: 0;
+  width: 200px;
+  top: -368px;
+  left: 99px;
+  border: 1px solid #d2d2d2;
+  /* border-right: 1px solid #666666; */
+  height: 42px;
+  margin: 0;
 }
 
 #vendor_type-7d98055d-a174-43d2-b202-d36657ea1f2e {
   position: relative;
-top: -323px;
-left: 105px;
-border: 1px solid #d2d2d2;
-/* border-right: 1px solid #666666; */
-height: 42px;
-margin: 0;
-}
-
-.hbspt-form {
-  margin-top: -92px;
-  margin-left: 20px;
+  width: 200px;
+  top: -418px;
+  left: 99px;
+  border: 1px solid #d2d2d2;
+  /* border-right: 1px solid #666666; */
+  height: 42px;
+  margin: 0;
 }
 
 .hs-button {
   position: relative;
-  width: 464px;
-  top: -331px;
-  left: -12px;
+  width: 399px;
+  top: -426px;
+  left: -1px;
   height: 42px;
   font-size: 14px;
   font-weight: 700;
@@ -184,8 +186,6 @@ margin: 0;
   background-color: #59bfc7;
   background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0));
 }
-
-
 
 .community-lead {
   font-size: 46px;
@@ -283,11 +283,13 @@ margin: 0;
 .home-sub {
   margin: 0 auto;
   max-width: 70%;
-  font-family: 'proxima-nova', sans-serif;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
   color: #fff;
   margin-bottom: 20px;
-  font-weight: 300;
+  font-size: 24px;
+  font-weight: 700;
   line-height: 1.7;
+  text-shadow: 0 1px 4px rgba(75,75,75,0.99);
 }
   
 .fa-home-container {
@@ -601,6 +603,10 @@ span.line-sep:after {
     font-size: 30px;
   }
 
+  .home-sub {
+    font-size: 20px;
+  }
+
   .testimonials {
     height: auto;
     margin-top: 10px;
@@ -624,7 +630,13 @@ span.line-sep:after {
 
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
+  #home {
+    height: auto;
+    top: -80px;
+  }
+
   .home-lead {
+    padding-top: 0px;
     font-size: 30px;
   }
 
@@ -637,6 +649,108 @@ span.line-sep:after {
     padding: 10px 40px;
     font-family: 'Open Sans Condensed', sans-serif;
     text-align: center;
+  }
+
+  #lp-registration {
+    background: rgba(255,255,255,0.4);
+    padding: 0px 0px 0px 0px;
+    /* display: none; */
+    margin: auto;
+    position: relative;
+    /* margin-top: 190px; */
+    width: 320px;
+    max-height: 314px;
+    height: auto;
+    /* z-index: 999; */
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+    /* margin-top: 90px; */
+  }
+
+  #firstname-7d98055d-a174-43d2-b202-d36657ea1f2e {
+/*    position: relative;*/
+    width: 300px;
+    top: -30px;
+    left: auto;
+    right: auto;
+    border: 1px solid #d2d2d2;
+    height: 42px;
+  }
+
+  #lastname-7d98055d-a174-43d2-b202-d36657ea1f2e {
+/*    position: relative;*/
+    width: 300px;
+    top: -80px;
+    left: auto;
+    right: auto;
+    border: 1px solid #d2d2d2;
+    height: 42px;
+    margin: 0;
+  }
+
+  #email-7d98055d-a174-43d2-b202-d36657ea1f2e {
+/*    position: relative;*/
+    width: 300px;
+    top: -130px;
+    left: auto;
+    right: auto;
+    border: 1px solid #d2d2d2;
+    height: 42px;
+    margin: 0;
+  }
+
+  #company-7d98055d-a174-43d2-b202-d36657ea1f2e {
+/*    position: relative;*/
+    width: 300px;
+    top: -180px;
+    left: auto;
+    right: auto;
+    border: 1px solid #d2d2d2;
+    height: 42px;
+    margin: 0;
+  }
+
+  #phone-7d98055d-a174-43d2-b202-d36657ea1f2e {
+/*    position: relative;*/
+    width: 300px;
+    top: -230px;
+    left: auto;
+    right: auto;
+    border: 1px solid #d2d2d2;
+    height: 42px;
+  }
+
+  #vendor_type-7d98055d-a174-43d2-b202-d36657ea1f2e {
+/*    position: relative;*/
+    width: 300px;
+    top: -280px;
+    left: auto;
+    right: auto;
+    border: 1px solid #d2d2d2;
+    height: 42px;
+    margin: 0;
+  }
+
+/*.hbspt-form {
+  margin-top: -92px;
+  margin-left: 20px;
+}*/
+
+  .hs-button {
+/*    position: relative;*/
+    width: 300px;
+    left: auto;
+    right: auto;
+    top: -288px;
+    height: 42px;
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    background-color: #59bfc7;
+    background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0));
   }
 
   .get-going {
@@ -656,10 +770,17 @@ span.line-sep:after {
   }
 }
 
-/* Landscape phones and smaller */
-/*@media (max-width: 480px) {
-
+@media only screen and (-webkit-min-device-pixel-ratio: 1) {
+    ::i-block-chrome, .hs-button {
+      position: relative;
+      width: 499px;
+      top: -331px;
+      left: -31px;
+      height: 42px;
+      font-size: 14px;
+      font-weight: 700;
+      color: white;
+      background-color: #59bfc7;
+      background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0));
+    }
 }
-*/
-
-
