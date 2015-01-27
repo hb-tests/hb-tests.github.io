@@ -37,6 +37,13 @@ a:hover {
   color: #59bfc7;
 }
 
+i.fa {
+  color: #59bfc7;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-shadow: 0 1px 4px rgba(75,75,75,0.99);
+}
+
 .navbar.navbar-default {
   background: transparent !important;
   border: none !important;
