@@ -29,6 +29,14 @@ textarea:focus, input:focus{
     outline: 0;
 }
 
+a {
+  color: #59bfc7;
+}
+
+a:hover {
+  color: #59bfc7;
+}
+
 .navbar.navbar-default {
   background: transparent !important;
   border: none !important;
@@ -178,6 +186,10 @@ input[type="phone"] {
   /* border-right: 1px solid #666666; */
   height: 42px;
   margin: 0;
+}
+
+span.hs-form-required {
+  display: none;
 }
 
 .hs-button {

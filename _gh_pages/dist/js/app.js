@@ -37,6 +37,10 @@ $(document).ready(function() {
   //     $("[data-toggable-family='"+data_toggable_family+"']").children("[data-toggable-name='"+ data_toggable_name+"']").show();
   // });
 
+  $('.hs-button').click(function () {
+    mixpanel.track("~request invite button");
+  });
+
   //testimonials section
   $('#data-section-1').click(function () {
       $('#avatar-1').addClass('avatar-active')
@@ -47,7 +51,7 @@ $(document).ready(function() {
       $('#testimonial-2').removeClass('active')
       $('#testimonial-3').removeClass('active')
       $('#testimonial-4').removeClass('active')
-      mixpanel.track('stationary')
+      mixpanel.track('~stationary')
   });
   $('#data-section-2').click(function () {
       $('#avatar-1').removeClass('avatar-active')
@@ -58,7 +62,7 @@ $(document).ready(function() {
       $('#testimonial-2').addClass('active')
       $('#testimonial-3').removeClass('active')
       $('#testimonial-4').removeClass('active')
-      mixpanel.track('stationary')
+      mixpanel.track('~photography')
   });
   $('#data-section-3').click(function () {
       $('#avatar-1').removeClass('avatar-active')
@@ -69,7 +73,7 @@ $(document).ready(function() {
       $('#testimonial-2').removeClass('active')
       $('#testimonial-3').addClass('active')
       $('#testimonial-4').removeClass('active')
-      mixpanel.track('stationary')
+      mixpanel.track('~event planner a')
   });
   $('#data-section-4').click(function () {
       $('#avatar-1').removeClass('avatar-active')
@@ -80,7 +84,7 @@ $(document).ready(function() {
       $('#testimonial-2').removeClass('active')
       $('#testimonial-3').removeClass('active')
       $('#testimonial-4').addClass('active')
-      mixpanel.track('stationary')
+      mixpanel.track('~event planner b')
   });
 
   jQuery(function() {

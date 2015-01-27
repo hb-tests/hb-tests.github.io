@@ -5,7 +5,8 @@ slug: home
 lead: 
 base_url: "../"
 ---
-<body onload="mixpanel.track('~lp messaging test')">
+<body onload="mixpanel.track('~page load: messaging v1 fb')">
+<body onload="mixpanel.track('~page load: messaging test')">
 <main id="content" role="main">
   <div class="jumbotron hero" id="home">
     <div class="container">
@@ -84,7 +85,7 @@ base_url: "../"
       <h2 class="lead footer-lead text-center">Elevate Your Business</h2>
        <h3 class="home-sub text-center">Keep your business organized and running smoothly so you can focus on clients, vendors and great events.</h3>
       <div class="text-center">
-          <button class="btn btn-primary btn-lg btn-home" id="home-sign-up-footer">JOIN NOW</button>
+          <button track="~footer sign up" class="btn btn-primary btn-lg btn-home" id="home-sign-up-footer">JOIN NOW</button>
       </div>
     </div>
   </section>
