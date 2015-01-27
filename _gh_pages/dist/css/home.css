@@ -101,10 +101,16 @@ textarea:focus, input:focus{
 }
 
 ::-webkit-input-placeholder {
-  padding-top: 2px;
-  padding-left: 10px;
+  padding-top: 4px;
+  padding-left: 6px;
   padding-bottom: 2px;
   font-size: 14px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="phone"] {
+  padding-left: 8px;
 }
 
 .hbspt-form > label {
