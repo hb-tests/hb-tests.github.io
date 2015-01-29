@@ -644,7 +644,7 @@ span.line-sep:after {
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
   #home {
-    height: auto;
+    height: 600px;
     top: -80px;
   }
 
@@ -796,7 +796,7 @@ span.line-sep:after {
   #home {
     height: auto;
     top: -80px;
-    max-height: 580px;
+    height: 580px;
   }
 
   .home-lead {
@@ -943,7 +943,7 @@ span.line-sep:after {
   }
 }
 
-@media only screen and (min-device-width : 375px) and (max-device-width : 400px) {
+/*@media only screen and (min-device-width : 375px) and (max-device-width : 400px) {
     #firstname-7d98055d-a174-43d2-b202-d36657ea1f2e {
     position: relative;
     width: 240px;
@@ -1007,4 +1007,4 @@ span.line-sep:after {
     height: 42px;
     margin: 0;
   }
-}
+}*/
