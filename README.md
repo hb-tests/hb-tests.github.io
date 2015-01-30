@@ -1,3 +1,3 @@
 ### What is this?
 
-This is the BetaSales website.
+These are test landing pages for HB :)
