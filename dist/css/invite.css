@@ -1,0 +1,161 @@
+#firstname-00950137-f68d-409f-b119-d19511b15d92 {
+  position: relative;
+  width: 200px;
+  top: -45px;
+  left: -100px;
+  border: 1px solid #d2d2d2;
+  height: 42px;
+  margin: 0;
+}
+
+#lastname-00950137-f68d-409f-b119-d19511b15d92 {
+  position: relative;
+  width: 200px;
+  top: -136px;
+  left: 99px;
+  border: 1px solid #d2d2d2;
+  height: 42px;
+  margin: 0;
+}
+
+#email-00950137-f68d-409f-b119-d19511b15d92 {
+  position: relative;
+  width: 200px;
+  top: -186px;
+  left: -100px;
+  border: 1px solid #d2d2d2;
+  height: 42px;
+  margin: 0;
+}
+
+#company-00950137-f68d-409f-b119-d19511b15d92 {
+  position: relative;
+  width: 200px;
+  top: -236px;
+  left: -100px;
+  border: 1px solid #d2d2d2;
+  /* border-right: 1px solid #666666; */
+  height: 42px;
+  margin: 0;
+}
+
+#phone-00950137-f68d-409f-b119-d19511b15d92 {
+  position: relative;
+  width: 200px;
+  top: -368px;
+  left: 99px;
+  border: 1px solid #d2d2d2;
+  /* border-right: 1px solid #666666; */
+  height: 42px;
+  margin: 0;
+}
+
+#vendor_type-00950137-f68d-409f-b119-d19511b15d92 {
+  position: relative;
+  width: 200px;
+  top: -418px;
+  left: 99px;
+  border: 1px solid #d2d2d2;
+  /* border-right: 1px solid #666666; */
+  height: 42px;
+  margin: 0;
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+  #firstname-00950137-f68d-409f-b119-d19511b15d92 {
+    width: 300px;
+    top: -30px;
+    left: auto;
+    right: auto;
+  }
+
+  #lastname-00950137-f68d-409f-b119-d19511b15d92 {
+    width: 300px;
+    top: -80px;
+    left: auto;
+    right: auto;
+  }
+
+  #email-00950137-f68d-409f-b119-d19511b15d92 {
+    width: 300px;
+    top: -130px;
+    left: auto;
+    right: auto;
+  }
+
+  #company-00950137-f68d-409f-b119-d19511b15d92 {
+    width: 300px;
+    top: -180px;
+    left: auto;
+    right: auto;
+  }
+
+  #phone-00950137-f68d-409f-b119-d19511b15d92 {
+    width: 300px;
+    top: -230px;
+    left: auto;
+    right: auto;
+  }
+
+  #vendor_type-00950137-f68d-409f-b119-d19511b15d92 {
+    width: 300px;
+    top: -280px;
+    left: auto;
+    right: auto;
+  }
+
+
+@media (max-width: 460px) {
+
+  #firstname-00950137-f68d-409f-b119-d19511b15d92 {
+    top: -30px;
+    width: 240px;
+    left: auto;
+    right: auto;
+  }
+
+  #lastname-00950137-f68d-409f-b119-d19511b15d92 {
+    top: -80px;
+    width: 240px;
+    left: auto;
+    right: auto;    
+  }
+
+  #email-00950137-f68d-409f-b119-d19511b15d92 {
+    top: -130px;
+    width: 240px;
+    left: auto;
+    right: auto;    
+  }
+
+  #company-00950137-f68d-409f-b119-d19511b15d92 {
+    width: 240px;
+    top: -180px;
+    left: auto;
+    right: auto;
+  }
+
+  #phone-00950137-f68d-409f-b119-d19511b15d92 {
+    position: relative;
+    width: 240px;
+    top: -230px;
+    left: auto;
+    right: auto;
+    border: 1px solid #d2d2d2;
+    height: 42px;
+  }
+
+  #vendor_type-00950137-f68d-409f-b119-d19511b15d92 {
+    position: relative;
+    width: 240px;
+    top: -280px;
+    left: auto;
+    right: auto;
+    border: 1px solid #d2d2d2;
+    height: 42px;
+    margin: 0;
+  }
+
+}
