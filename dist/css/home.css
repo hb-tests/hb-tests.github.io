@@ -37,7 +37,7 @@ a:hover {
   color: #59bfc7;
 }
 
-i.fa {
+i.fa-thank-you {
   color: #59bfc7;
   padding-left: 10px;
   padding-right: 10px;
@@ -99,20 +99,16 @@ i.fa {
 #lp-registration {
   background: rgba(255,255,255,0.4);
   padding: 10px 0px 0px 0px;
-  /* display: none; */
   margin: auto;
   position: relative;
-  /* margin-top: 190px; */
   width: 417px;
   height: 200px;
   height: 186px;
-  /* z-index: 999; */
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
   -o-border-radius: 4px;
   border-radius: 4px;
-  /* margin-top: 90px; */
 }
 
 ::-webkit-input-placeholder {
@@ -276,7 +272,7 @@ input.hs-button {
 
 .home-lead {
   padding-top: 80px;
-  color: #999999;
+  color: rgba(0,0,0,0.39);
   line-height: 1.6;
   font-weight: 700;
   font-family: 'Open Sans Condensed', sans-serif;
@@ -295,56 +291,110 @@ input.hs-button {
   line-height: 1.7;
   text-shadow: 0 1px 4px rgba(75,75,75,0.99);
 }
-  
-.fa-home-container {
-  padding-top: 140px;
-  opacity: .6;
-}
 
-section {
-  border-bottom: solid 1px #edeeef;
-}
+/*SERVICES SECTION -----------------*/
 
-.sales-process {
-  margin-top: -70px;
-  height: 420px;
-  width: 510px;
-  background-image: url('https://s3.amazonaws.com/betasales/go_to_market.png');
-  background-size: 100%;
-  overflow: visible;
-}
-
-.product-validation {
-  height: 280px;
-  width: 490px;
-  margin-left: -30px;
-  margin-top: 20px;
-  background-image: url('https://s3.amazonaws.com/betasales/constant-communication.png');
-  background-size: 100%;
-}
-
-.row-services .col-lg-3 {
-  border: solid 1px #edeeef;
-  margin: 40px;
-  padding: 2px 10px 10px 30px;
-  left: 30px;
-}
-
-.row-services .col-lg-3:hover {
-  border: solid 1px #007cf4;
-}
-
-.fa-service {
-  padding-right: 10px;
-}
-
-#startups {
-  padding-bottom: 0px;
-}
-
-.customers-break {
-  background-color: #f0f0f0;
+section.services {
+  display: block;
+  height: auto;
+  min-height: 500px;
+  max-height: 700px;
+  background: #f0f6fb;
   margin-top: -110px;
+  padding-top: 80px;
+  padding-bottom: 200px;
+}
+
+.services-row {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 60px;
+}
+
+.services-container {
+  background: #fff;
+  border: 1px solid #ebebeb;
+}
+
+.services-inner {
+  padding: 14px;
+}
+
+.services-row {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.services-header {
+  padding: 2px;
+}
+
+.services-brand {
+  background: gold;
+}
+
+.services-organized {
+  background: #82bd1a;
+}
+
+.services-collaboration {
+  background: #843b7f;
+}
+
+.container-brand:hover {
+  border: 1px solid gold;
+}
+
+.container-organized:hover {
+  border: 1px solid #82bd1a;
+}
+
+.container-collaboration:hover {
+  border: 1px solid #843b7f;
+}
+
+.services-title {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: .07em;
+  text-transform: uppercase;
+}
+
+.services-lead {
+  font-weight: 400;
+  font-size: 24px;
+  letter-spacing: .07em;
+  text-transform: uppercase;
+}
+
+.services-details {
+  font-size: 12px;
+  color: #666666;
+}
+
+.fa-services {
+  padding: 1em .6em .3em .6em;
+}
+
+.brand {
+  color: gold;
+}
+
+.organized {
+  color: #82bd1a;
+}
+
+.collaboration {
+  color: #843b7f;
+}
+
+/*CUSTOMERS SECTION -----------------*/
+
+
+.customers {
+  background-color: #f0f0f0;
+  margin-top: -50px;
   padding-top: 80px;
   padding-bottom: 60px;
   color: #666666;
