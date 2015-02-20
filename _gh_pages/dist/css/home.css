@@ -641,12 +641,16 @@ span.line-sep:after {
 
 /* Portrait tablets and small desktops */
 @media (min-width: 768px) and (max-width: 991px) {
-    .home-lead {
+  .home-lead {
     font-size: 30px;
   }
 
   .home-sub {
     font-size: 20px;
+  }
+
+  .services-lead {
+    font-size: 16px;
   }
 
   .testimonials {
@@ -756,6 +760,21 @@ span.line-sep:after {
     color: white;
     background-color: #59bfc7;
     background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0));
+  }
+
+  section.services {
+    display: block;
+    height: auto;
+    min-height: 500px;
+    max-height: 1200px;
+    background: #f0f6fb;
+    margin-top: -110px;
+    padding-top: 80px;
+    padding-bottom: 200px;
+  }
+
+  .services-container {
+    margin-bottom: 20px;
   }
 
   .get-going {
