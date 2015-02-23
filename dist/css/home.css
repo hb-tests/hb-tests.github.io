@@ -190,9 +190,9 @@ input.hs-button {
   background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0));
 }
 
-label {
-  display: none;
-/*  margin-bottom: 0; */
+.hbspt-form > label {
+  display: inline-block;
+  margin-bottom: 5px; 
   font-weight: bold;
 }
 
@@ -278,7 +278,7 @@ label {
 
 .home-lead {
   padding-top: 80px;
-  color: #59bfc7;
+  color: rgba(0,0,0,0.39);
   line-height: 1.6;
   font-weight: 600;
   font-family: 'Open Sans', sans-serif;
