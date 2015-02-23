@@ -190,9 +190,9 @@ input.hs-button {
   background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0));
 }
 
-.hbspt-form > label {
-  display: inline-block;
-  margin-bottom: 5px; 
+label {
+  display: none;
+/*  margin-bottom: 0; */
   font-weight: bold;
 }
 
