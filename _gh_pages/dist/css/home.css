@@ -278,7 +278,7 @@ input.hs-button {
 
 .home-lead {
   padding-top: 80px;
-  color: rgba(0,0,0,0.39);
+  color: #9E9E9E;
   line-height: 1.6;
   font-weight: 600;
   font-family: 'Open Sans', sans-serif;
@@ -289,7 +289,7 @@ input.hs-button {
 
 .home-sub {
   margin: 0 auto;
-  max-width: 70%;
+  max-width: 60%;
   font-family: 'Yanone Kaffeesatz', sans-serif;
   color: #fff;
   margin-bottom: 20px;
