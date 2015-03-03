@@ -13,9 +13,6 @@ body, input, select, textarea, button {
   text-rendering: optimizeLegibility;
   font-family: "Open Sans", sans-serif; }
 
-/*a {
-  -webkit-tap-highlight-color: #2E4051; }*/
-
 img {
   -ms-interpolation-mode: bicubic; }
 
@@ -115,13 +112,16 @@ i.fa-thank-you {
   padding-top: 4px;
   padding-left: 6px;
   padding-bottom: 2px;
-  font-size: 14px;
 }
 
 input[type="text"],
 input[type="email"],
 input[type="phone"] {
   padding-left: 8px;
+  font-size: 12px;
+  padding-top: 5px;
+  padding-bottom: 9px;
+  height: 46px;
 }
 
 .hbspt-form > label {
@@ -137,40 +137,63 @@ input.hs-input {
 }
 
 #firstname-7d98055d-a174-43d2-b202-d36657ea1f2e {
+  position: relative;
   width: 200px;
   top: -45px;
   left: -100px;
+  border: 1px solid #d2d2d2;
+  height: 42px;
+  margin: 0;
 }
 
 #lastname-7d98055d-a174-43d2-b202-d36657ea1f2e {
+  position: relative;
   width: 200px;
-  top: -136px;
+  top: -139px;
   left: 99px;
+  border: 1px solid #d2d2d2;
+  height: 42px;
+  margin: 0;
 }
 
 #email-7d98055d-a174-43d2-b202-d36657ea1f2e {
+  position: relative;
   width: 200px;
-  top: -186px;
+  top: -192px;
   left: -100px;
+  border: 1px solid #d2d2d2;
+  height: 42px;
+  margin: 0;
 }
 
 #company-7d98055d-a174-43d2-b202-d36657ea1f2e {
+  position: relative;
   width: 200px;
-  top: -236px;
+  top: -245px;
   left: -100px;
+  border: 1px solid #d2d2d2;
+  height: 42px;
+  margin: 0;
 }
 
 #phone-7d98055d-a174-43d2-b202-d36657ea1f2e {
+  position: relative;
   width: 200px;
-  top: -368px;
+  top: -380px;
   left: 99px;
   border: 1px solid #d2d2d2;
+  height: 42px;
+  margin: 0;
 }
 
-#vendor_type-7d98055d-a174-43d2-b202-d36657ea1f2e {
-  top: -418px;
+#vendor_type-7d98055d-a174-43d2-b202-d36657ea1f2e {\
+  position: relative;
+  width: 200px;
+  top: -433px;
   left: 99px;
   border: 1px solid #d2d2d2;
+  height: 42px;
+  margin: 0;
 }
 
 span.hs-form-required {
@@ -180,8 +203,8 @@ span.hs-form-required {
 input.hs-button {
   position: relative;
   width: 399px;
-  top: -426px;
-  left: -1px;
+  top: -437px;
+  left: 0px;
   height: 42px;
   font-size: 14px;
   font-weight: 700;
@@ -724,35 +747,35 @@ span.line-sep:after {
 
   #lastname-7d98055d-a174-43d2-b202-d36657ea1f2e {
     width: 300px;
-    top: -80px;
+    top: -83px;
     left: auto;
     right: auto;
   }
 
   #email-7d98055d-a174-43d2-b202-d36657ea1f2e {
     width: 300px;
-    top: -130px;
+    top: -136px;
     left: auto;
     right: auto;
   }
 
   #company-7d98055d-a174-43d2-b202-d36657ea1f2e {
     width: 300px;
-    top: -180px;
+    top: -189px;
     left: auto;
     right: auto;
   }
 
   #phone-7d98055d-a174-43d2-b202-d36657ea1f2e {
     width: 300px;
-    top: -230px;
+    top: -242px;
     left: auto;
     right: auto;
   }
 
   #vendor_type-7d98055d-a174-43d2-b202-d36657ea1f2e {
     width: 300px;
-    top: -280px;
+    top: -299px;
     left: auto;
     right: auto;
   }
@@ -761,7 +784,7 @@ span.line-sep:after {
     width: 300px;
     left: auto;
     right: auto;
-    top: -288px;
+    top: -303px;
     height: 42px;
     font-size: 14px;
     font-weight: 700;
@@ -869,7 +892,7 @@ span.line-sep:after {
 
   }
 
-  #firstname-7d98055d-a174-43d2-b202-d36657ea1f2e {
+    #firstname-7d98055d-a174-43d2-b202-d36657ea1f2e {
     top: -30px;
     width: 240px;
     left: auto;
@@ -877,22 +900,22 @@ span.line-sep:after {
   }
 
   #lastname-7d98055d-a174-43d2-b202-d36657ea1f2e {
-    top: -80px;
+    top: -83px;
     width: 240px;
     left: auto;
-    right: auto;    
+    right: auto;
   }
 
   #email-7d98055d-a174-43d2-b202-d36657ea1f2e {
-    top: -130px;
+    top: -136px;
     width: 240px;
     left: auto;
-    right: auto;    
+    right: auto; 
   }
 
   #company-7d98055d-a174-43d2-b202-d36657ea1f2e {
     width: 240px;
-    top: -180px;
+    top: -189px;
     left: auto;
     right: auto;
   }
@@ -900,20 +923,18 @@ span.line-sep:after {
   #phone-7d98055d-a174-43d2-b202-d36657ea1f2e {
     position: relative;
     width: 240px;
-    top: -230px;
+    top: -242px;
     left: auto;
     right: auto;
-    border: 1px solid #d2d2d2;
     height: 42px;
   }
 
   #vendor_type-7d98055d-a174-43d2-b202-d36657ea1f2e {
     position: relative;
     width: 240px;
-    top: -280px;
+    top: -295px;
     left: auto;
     right: auto;
-    border: 1px solid #d2d2d2;
     height: 42px;
     margin: 0;
   }
@@ -923,7 +944,7 @@ span.line-sep:after {
     width: 240px;
     left: auto;
     right: auto;
-    top: -288px;
+    top: -299px;
     height: 42px;
     font-size: 14px;
     font-weight: 700;

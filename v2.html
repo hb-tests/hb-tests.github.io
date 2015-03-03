@@ -5,6 +5,7 @@ slug: home
 lead: 
 base_url: "../"
 ---
+<link href="{{ page.base_url }}dist/css/organize.css" rel="stylesheet">
 <body onload="mixpanel.track('~page load: messaging v2 fb')">
 <main id="content" role="main">
   <div class="jumbotron hero" id="home">
@@ -15,7 +16,7 @@ base_url: "../"
         <div class="row text-center">
           <div class="">
           <!-- <button class="btn btn-primary btn-lg btn-home" id="home-sign-up">APPLY NOW</button> -->
-            {% include form.html %}
+            {% include organize_form.html %}
           </div>
         </div>
        <!--  <i class="fa fa-2x fa-chevron-down light text-center fa-home-container"></i> -->
