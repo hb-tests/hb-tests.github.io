@@ -257,7 +257,7 @@ input.hs-button {
 }*/
 
 .navbar-default .navbar-nav>li>a {
-  color: #666666;
+  color: #fff;
   font-weight: 600;
 }
 
@@ -289,25 +289,31 @@ input.hs-button {
 
 #home {
   position: relative;
-  height: 620px;
+  height: 650px;
   top: -80px;
   right: 0;
   left: 0;
   background:
-    url("https://s3.amazonaws.com/honeybook_cdn/assets_system/system_web/cover_slide/bg_video.png") center bottom;
+
+    url("https://s3-us-west-1.amazonaws.com/honeybook/picjumbo.jpg") center bottom;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
+/*    linear-gradient(rgba(0, 0, 0, .4) 40%, rgba(0, 0, 0, .4) 40%),*/
+/*https://dl.dropboxusercontent.com/u/11221717/honeybook/picjumbo.com_HNCK4023.jpg*/
+/*https://dl.dropboxusercontent.com/u/11221717/honeybook/picjumbo.com_HNCK3991.jpg*/
+/*https://s3.amazonaws.com/honeybook_cdn/assets_system/system_web/cover_slide/bg_video.png*/
+
 .home-lead {
-  padding-top: 80px;
-  color: #9E9E9E;
+  padding-top: 60px;
+  color: #FFF;
   line-height: 1.6;
   font-weight: 600;
   font-family: 'Open Sans', sans-serif;
   letter-spacing: -.03em;
   font-size: 70px;
-  text-shadow: 0 0px 4px rgba(133,133,133,0.37);
+  text-shadow: 0 1px 4px rgba(75,75,75,.3);
 }
 
 .home-sub {
@@ -332,7 +338,7 @@ section.services {
   background: #f0f6fb;
   margin-top: -110px;
   padding-top: 80px;
-  padding-bottom: 200px;
+  padding-bottom: 150px;
 }
 
 .services-row {
@@ -417,6 +423,24 @@ section.services {
 
 .collaboration {
   color: #843b7f;
+}
+
+/*PLATFORMS SECTION -------------------*/
+
+.platforms {
+  padding-top: 4em;
+  padding-bottom: 8em;
+  background: #8d9aa5;
+}
+
+h2.platforms-lead {
+  color: #fff;
+  line-height: 1.8;
+  width: 90%;
+}
+
+.platform-icons {
+  color: #fff;
 }
 
 /*CUSTOMERS SECTION -----------------*/
@@ -611,8 +635,7 @@ span.line-sep:after {
 .get-going {
   background:
     url("https://s3.amazonaws.com/honeybook_cdn/assets_system/system_web/contact_page_map/contactpage_airplane.png") -20% 140% no-repeat,
-    linear-gradient(to bottom, rgba(0, 0, 0, .4) 40%, rgba(0, 0, 0, .4) 40%), 
-    url("https://s3.amazonaws.com/honeybook_cdn/assets_system/system_web/cover_slide/cover_contact.jpg") center no-repeat;
+    url("https://s3-us-west-1.amazonaws.com/honeybook/picjumbo_footer.jpg") center no-repeat;
   height: 500px;
 }
 
@@ -626,9 +649,7 @@ span.line-sep:after {
 
 
 /* Large screens ----------- */
-@media only screen  and (min-width : 1824px) {
-/* Styles */
-}
+
 
 /* medium screens ----------- */
 @media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
@@ -664,8 +685,8 @@ span.line-sep:after {
   .get-going {
     background:
       url("https://s3.amazonaws.com/honeybook_cdn/assets_system/system_web/contact_page_map/contactpage_airplane.png") -60% 140% no-repeat,
-      linear-gradient(to bottom, rgba(0, 0, 0, .4) 40%, rgba(0, 0, 0, .4) 40%), 
-      url("https://s3.amazonaws.com/honeybook_cdn/assets_system/system_web/cover_slide/cover_contact.jpg") center no-repeat;
+      linear-gradient(rgba(0, 0, 0, .5) 40%, rgba(0, 0, 0, .5) 40%), 
+      url("https://s3-us-west-1.amazonaws.com/honeybook/picjumbo_footer.jpg") center no-repeat;
     height: 500px;
   }
 }
@@ -699,7 +720,7 @@ span.line-sep:after {
     background:
       url("https://s3.amazonaws.com/honeybook_cdn/assets_system/system_web/contact_page_map/contactpage_airplane.png") -160% 140% no-repeat,
       linear-gradient(to bottom, rgba(0, 0, 0, .4) 40%, rgba(0, 0, 0, .4) 40%), 
-      url("https://s3.amazonaws.com/honeybook_cdn/assets_system/system_web/cover_slide/cover_contact.jpg") center no-repeat;
+      url("https://s3-us-west-1.amazonaws.com/honeybook/picjumbo_footer.jpg") center no-repeat;
     height: 400px;
   }
 
@@ -811,8 +832,8 @@ span.line-sep:after {
   .get-going {
     background:
       url("https://s3.amazonaws.com/honeybook_cdn/assets_system/system_web/contact_page_map/contactpage_airplane.png") -600% 400% no-repeat,
-      linear-gradient(to bottom, rgba(0, 0, 0, .4) 40%, rgba(0, 0, 0, .4) 40%), 
-      url("https://s3.amazonaws.com/honeybook_cdn/assets_system/system_web/cover_slide/cover_contact.jpg") center no-repeat;
+      linear-gradient(rgba(0, 0, 0, .5) 40%, rgba(0, 0, 0, .5) 40%), 
+      url("https://s3-us-west-1.amazonaws.com/honeybook/picjumbo_footer.jpg") center no-repeat;
     height: 300px;
   }
 
