@@ -295,7 +295,7 @@ input.hs-button {
   left: 0;
   background:
 
-    url("https://s3.amazonaws.com/honeybook_cdn/assets_system/system_web/cover_slide/bg_video.png") center bottom;
+    url("https://s3-us-west-1.amazonaws.com/honeybook/picjumbo.jpg") center bottom;
   background-size: cover;
   background-repeat: no-repeat;
 }
