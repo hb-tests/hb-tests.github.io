@@ -484,7 +484,7 @@ h2.platforms-lead {
 }
 
 .avatar-1 {
-  background: url('https://s3-us-west-2.amazonaws.com/honeyvendorsprofiles/throneinvitations/throne_dena.jpg');
+  background: url('https://s3-us-west-1.amazonaws.com/honeybook/throne_dena.jpg');
   background-size: cover;
     -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
@@ -495,7 +495,7 @@ h2.platforms-lead {
 }
 
 .avatar-2 {
-  background: url('https://s3.amazonaws.com/honeybook_cdn/assets_users_production/user/5335e2fd137e79d87e000141/junshien_headshot.jpg');
+  background: url('https://s3-us-west-1.amazonaws.com/honeybook/junshien_headshot.jpg');
   background-size: cover;
     -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
@@ -506,7 +506,7 @@ h2.platforms-lead {
 }
 
 .avatar-3 {
-  background: url('https://s3.amazonaws.com/honeybook_cdn/assets_users_production/user/52e96161a60536a71b000060/crystal.jpg');
+  background: url('https://s3-us-west-1.amazonaws.com/honeybook/crystal.jpg');
   background-size: cover;
     -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
@@ -517,7 +517,7 @@ h2.platforms-lead {
 }
 
 .avatar-4 {
-  background: url('https://cdn.evbuc.com/eventlogos/8197609/sashapic.jpg');
+  background: url('https://s3-us-west-1.amazonaws.com/honeybook/sasha.jpg');
   background-size: cover;
     -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
