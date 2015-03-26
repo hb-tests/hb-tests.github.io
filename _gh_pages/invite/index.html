@@ -231,7 +231,7 @@ window._fbq.push(['track', '6019485997530', {'value':'0.00','currency':'USD'}]);
               <div role="" id="testimonial-1" class="tab-pane testimonials active">“The ease of use along with the booking success rate I have had since using HoneyBook makes it a necessary business tool for my business. I have all the info I need in one workspace, and I’m also able to communicate with my clients and receive payments when I am traveling out of the country. I would undoubtedly recommend HoneyBook to anyone in the industry.”</div>
               <div role="" id="testimonial-2" class="tab-pane testimonials">“We LOVE HoneyBook, and can't recommend it enough to our vendor friends! With their beautiful and intuitive website, and amazingly responsive customer service, HoneyBook has now become an essential part of our business.”</div>
               <div role="" id="testimonial-3" class="tab-pane testimonials"><div class="hidden-xs"><iframe width="560" height="315" src="//www.youtube.com/embed/OkQ-V8j6jfs?enablejsapi=1" frameborder="0" allowfullscreen=""></iframe></div>
-              <div class="hidden-lg hidden-md hidden-sm hidden-xs"><iframe width="300" height="200" src="//www.youtube.com/embed/OkQ-V8j6jfs?enablejsapi=1" frameborder="0" allowfullscreen=""></iframe></div>
+              <div class="hidden-lg hidden-md hidden-sm hidden-xs"><!-- <iframe width="300" height="200" src="//www.youtube.com/embed/OkQ-V8j6jfs?enablejsapi=1" frameborder="0" allowfullscreen=""></iframe> --></div>
               </div>
               <div role="" id="testimonial-4" class="tab-pane testimonials">“In 19 years in business, I've never had a client book from proposal to payment in such a short time. HoneyBook puts a more professional and tech savvy appearance to my company. I am hooked!”</div>
             </div>  
@@ -255,6 +255,57 @@ window._fbq.push(['track', '6019485997530', {'value':'0.00','currency':'USD'}]);
 
   </body>
 </html>
- <!-- Bootstrap core JavaScript
-================================================== -->
-<!-- <script src="../dist/js/bootstrap.js"></script> -->
+<script async src="../dist/js/app.js"></script>
+<script async src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+<!-- Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-53989253-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+<!-- Mixpanel -->
+<script>  
+  (function(e,b){if(!b.__SV){var a,f,i,g;window.mixpanel=b;a=e.createElement("script");a.type="text/javascript";a.async=!0;a.src=("https:"===e.location.protocol?"https:":"http:")+'//cdn.mxpnl.com/libs/mixpanel-2.2.min.js';f=e.getElementsByTagName("script")[0];f.parentNode.insertBefore(a,f);b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==
+  typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.track_charge people.clear_charges people.delete_user".split(" ");for(g=0;g<i.length;g++)f(c,i[g]);
+  b._i.push([a,e,d])};b.__SV=1.2}})(document,window.mixpanel||[]);
+  mixpanel.init("865a793f9d17ecb3b7f20afefe07e4bd");
+</script>
+
+<!-- dev token 24505e719b003e8099efe0464d43190d -->
+<!-- production token 865a793f9d17ecb3b7f20afefe07e4bd -->
+
+<!-- Hubspot -->
+<!-- Start of Async HubSpot Analytics Code -->
+  <script type="text/javascript">
+    (function(d,s,i,r) {
+      if (d.getElementById(i)){return;}
+      var n=d.createElement(s),e=d.getElementsByTagName(s)[0];
+      n.id=i;n.src='//js.hs-analytics.net/analytics/'+(Math.ceil(new Date()/r)*r)+'/421588.js';
+      e.parentNode.insertBefore(n, e);
+    })(document,"script","hs-analytics",300000);
+  </script>
+<!-- End of Async HubSpot Analytics Code -->
+
+<!-- Facebook -->
+<!-- Facebook Conversion Code for honeybook-pages -->
+<script>(function() {
+  var _fbq = window._fbq || (window._fbq = []);
+  if (!_fbq.loaded) {
+    var fbds = document.createElement('script');
+    fbds.async = true;
+    fbds.src = '//connect.facebook.net/en_US/fbds.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(fbds, s);
+    _fbq.loaded = true;
+  }
+})();
+window._fbq = window._fbq || [];
+window._fbq.push(['track', '6019485997530', {'value':'0.00','currency':'USD'}]);
+</script>
+<noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?ev=6019485997530&amp;cd[value]=0.00&amp;cd[currency]=USD&amp;noscript=1" /></noscript>
