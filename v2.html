@@ -5,7 +5,7 @@ slug: home
 lead: 
 base_url: "../"
 ---
-<link href="{{ page.base_url }}dist/css/organize.css" rel="stylesheet">
+<link href="{{ page.base_url }}dist/css/organize.min.css" rel="stylesheet">
 <body onload="mixpanel.track('~page load: messaging v2 fb')">
 <main id="content" role="main">
   <div class="jumbotron hero" id="home">
@@ -24,6 +24,7 @@ base_url: "../"
     </div>
   </div>
   {% include services.html %}
+  {% include async_scripts.html %}
   {% include customers.html %}
   {% include footer.html %}
 </main>
