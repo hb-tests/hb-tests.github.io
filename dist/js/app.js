@@ -5,9 +5,14 @@ $(document).ready(function() {
     mixpanel.track($(this).attr("track"))  
   });
 
-  $(window).one( "scroll", function() {
+  $(window).on( "scroll", function() {
     console.log('scrollin')
     mixpanel.track('~page scrolled')
+  });
+
+  $('#home-btn').click(function() {
+    $('#home-form').toggle()
+    $('#home-btn').toggle()
   });
 
   //signup
