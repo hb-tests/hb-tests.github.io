@@ -310,9 +310,9 @@ input.hs-button {
   padding-top: 60px;
   color: #FFF;
   line-height: 1.6;
-  font-weight: 600;
+  font-weight: 400;
   font-family: 'Open Sans', sans-serif;
-  letter-spacing: -.03em;
+  letter-spacing: 1px;
   font-size: 70px;
   text-shadow: 0 1px 4px rgba(75,75,75,.6);
 }
@@ -320,7 +320,8 @@ input.hs-button {
 .home-sub {
   margin: 0 auto;
   max-width: 60%;
-  font-family: 'Yanone Kaffeesatz', sans-serif;
+  color: rgba(255,255,255,0.8);
+  font: 600 1.6em/1.5 sans-serif;
   color: #fff;
   margin-bottom: 30px;
   font-size: 24px;
