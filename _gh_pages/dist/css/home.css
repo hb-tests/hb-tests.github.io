@@ -644,10 +644,18 @@ span.line-sep:after {
 
 .get-going {
   background:
-    url("https://s3.amazonaws.com/honeybook_cdn/assets_system/system_web/contact_page_map/contactpage_airplane.png") -20% 140% no-repeat,
-    url("https://s3-us-west-1.amazonaws.com/honeybook/picjumbo_footer.jpg") center no-repeat;
-  height: 500px;
+    url("https://s3.amazonaws.com/honeybook_cdn/assets_system/system_web/contact_page_map/contactpage_airplane.png") -20% 140% no-repeat;
+  background-color: #59bfc7;
+  height: 440px;
 }
+
+.btn-footer {
+  background-color: #fff;
+  border: #56aeb6;
+  color: #56aeb6;
+}
+
+/*    url("https://s3-us-west-1.amazonaws.com/honeybook/picjumbo_footer.jpg") center no-repeat;*/
 
 .footer-lead {
   margin-top: 80px;
