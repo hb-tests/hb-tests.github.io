@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
   //mixpanel track
-  $('[track]').click(function () {
+  $('[track]').click(function() {
     mixpanel.track($(this).attr("track"))  
   });
 
