@@ -26,11 +26,8 @@ $(document).ready(function() {
   });
 
   $('#home-sign-up-footer').click(function () { 
-    $('#home-sign-up').hide()
-    // $('#google-signup').hide()
-    // $('#email-signup').hide()
-    // $('.divider').hide()
-    $('#lp-registration').show()
+    $('#home-btn').hide()
+    $('#home-form').show()
     $("html, body").animate({ scrollTop: 0 }, 600);
     return false;
   });
