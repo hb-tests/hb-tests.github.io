@@ -16,7 +16,7 @@ base_url: "./"
           <div class="">
           <!-- <button class="btn btn-primary btn-lg btn-home" id="home-sign-up">APPLY NOW</button> -->
             <div class="text-center">
-                <button track="~request form" class="btn btn-primary btn-lg btn-home" id="home-btn">REQUEST ACCESS</button>
+                <button id="home-btn" track="~request form" class="btn btn-primary btn-lg btn-home">REQUEST ACCESS</button>
             </div>
             <div id="home-form" style="display:none;">
               {% include form.html %}
@@ -28,7 +28,6 @@ base_url: "./"
     </div>
   </div>
   {% include services.html %}
-  {% include async_scripts.html %}
   {% include customers.html %}
   {% include footer.html %}
 </main>

@@ -1,5 +1,11 @@
 $(document).ready(function() {
 
+  $('#home-btn').click(function() {
+    console.log('hello')
+    $('#home-btn').hide()
+    $('#home-form').show()
+  });
+
   //mixpanel track
   $('[track]').click(function() {
     mixpanel.track($(this).attr("track"))  
@@ -8,11 +14,6 @@ $(document).ready(function() {
   $(window).on( "scroll", function() {
     console.log('scrollin')
     mixpanel.track('~page scrolled')
-  });
-
-  $('#home-btn').click(function() {
-    $('#home-form').toggle()
-    $('#home-btn').toggle()
   });
 
   //signup
