@@ -301,7 +301,7 @@ input.hs-button {
   right: 0;
   left: 0;
   background:
-    url("https://s3-us-west-1.amazonaws.com/honeybook/IMG_3060.jpg") center bottom;
+    url("https://s3-us-west-1.amazonaws.com/honeybook/IMG_3060.jpg") fixed center bottom;
   background-size: cover;
   background-repeat: no-repeat;
 }
