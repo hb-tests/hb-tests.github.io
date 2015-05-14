@@ -330,6 +330,15 @@ input.hs-button {
   text-shadow: 0 1px 1px rgba(75,75,75,0.6);
 }
 
+/*WHAT IS HB SECTION -----------------*/
+
+section.what_is_hb {
+  display: block;
+  height: auto;
+  padding-bottom: 80px;
+  margin-top: -80px;
+}
+
 /*SERVICES SECTION -----------------*/
 
 section.services {
@@ -338,7 +347,6 @@ section.services {
   min-height: 500px;
   max-height: 800px;
   background: #f0f6fb;
-  margin-top: -110px;
   padding-top: 80px;
   padding-bottom: 160px;
 }
@@ -834,13 +842,19 @@ span.line-sep:after {
     background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0));
   }
 
+  section.what_is_hb {
+    display: block;
+    height: auto;
+    padding-bottom: 40px;
+    margin-top: -40px;
+  }
+
   section.services {
     display: block;
     height: auto;
     min-height: 500px;
     max-height: 1200px;
     background: #f0f6fb;
-    margin-top: -110px;
     padding-top: 80px;
     padding-bottom: 200px;
   }
