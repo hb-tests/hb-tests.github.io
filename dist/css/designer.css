@@ -1,3 +1,28 @@
+#home {
+  position: relative;
+  height: auto;
+  max-height: 690px;
+  top: -80px;
+  right: 0;
+  left: 0;
+  background:
+    url("https://dl.dropboxusercontent.com/u/11221717/honeybook/design_bg.jpg") fixed center bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.home-lead {
+  font-size: 50px;
+}
+
+.home-sub {
+  font-weight: 400;
+}
+
+section.services {
+  margin-top: -110px;
+}
+
 #firstname-5ea98ba8-ef51-4e2d-941c-d455498fc3eb {
   position: relative;
   width: 200px;

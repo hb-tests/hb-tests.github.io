@@ -5,7 +5,6 @@ slug: home
 lead: 
 base_url: "../"
 ---
-<link href="{{ page.base_url }}dist/css/elevate.min.css" rel="stylesheet">
 <link href="{{ page.base_url }}dist/css/designer.min.css" rel="stylesheet">
 <body onload="mixpanel.track('~interior design')">
 <main id="content" role="main">
@@ -17,14 +16,18 @@ base_url: "../"
         <div class="row text-center">
           <div class="">
           <!-- <button class="btn btn-primary btn-lg btn-home" id="home-sign-up">APPLY NOW</button> -->
-            {% include elevate_form.html %}
+            <div class="text-center">
+                <button id="home-btn" track="~request form designer" class="btn btn-primary btn-lg btn-home">REQUEST ACCESS</button>
+            </div>
+            <div id="home-form" style="display:none;">
+              {% include designer_form.html %}
+            </div>
           </div>
         </div>
-       <!--  <i class="fa fa-2x fa-chevron-down light text-center fa-home-container"></i> -->
       </div>
     </div>
   </div>
   {% include services_designer.html %}
-  {% include what_is_hb.html %}
-  {% include footer.html %}
+  {% include customers.html %}
+  <div class="hidden-md hidden-sm hidden-xs">{% include footer.html %}</div>
 </main>
