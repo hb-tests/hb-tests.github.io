@@ -1,0 +1,30 @@
+---
+layout: home
+title: Home
+slug: home
+lead: 
+base_url: "../"
+---
+<link href="{{ page.base_url }}dist/css/elevate.min.css" rel="stylesheet">
+<link href="{{ page.base_url }}dist/css/designer.min.css" rel="stylesheet">
+<body onload="mixpanel.track('~interior design')">
+<main id="content" role="main">
+  <div class="jumbotron hero" id="home">
+    <div class="container">
+      <div class="text-center">
+        <h2 class="home-lead">The Platform For Creative Professionals</h2>
+        <h3 class="home-sub">Streamline your creative business with best in class tools.</h3>
+        <div class="row text-center">
+          <div class="">
+          <!-- <button class="btn btn-primary btn-lg btn-home" id="home-sign-up">APPLY NOW</button> -->
+            {% include elevate_form.html %}
+          </div>
+        </div>
+       <!--  <i class="fa fa-2x fa-chevron-down light text-center fa-home-container"></i> -->
+      </div>
+    </div>
+  </div>
+  {% include services_designer.html %}
+  {% include what_is_hb.html %}
+  {% include footer.html %}
+</main>
