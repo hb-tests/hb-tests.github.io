@@ -3,9 +3,12 @@
   <head>
     <!-- Meta, title, CSS, favicons, etc. -->
     {% include header.html %}
-    <link href="{{ page.base_url }}dist/css/invite.min.css" rel="stylesheet">
+    <link href="{{ page.base_url }}dist/css/send.css" rel="stylesheet">
   </head>
   <body class="">
+
+    <!-- Docs master nav -->
+    {% include nav-invite.html %}
 
     <!-- Page content of course! -->
     {{ content }}

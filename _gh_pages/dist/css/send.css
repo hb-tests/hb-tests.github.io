@@ -1,0 +1,70 @@
+.svg-send {
+	margin-top: 8rem;
+	width: 14rem;
+}
+
+.home-lead {
+   padding-top: 0;
+  margin-top: -10px;
+  font-size: 40px;
+}
+
+.home-sub {
+  font-size: 20px;
+}
+
+section.invite {
+  display: block;
+  height: auto;
+/*  min-height: 500px;
+  max-height: 800px;*/
+  margin-top: -110px;
+  background: #f0f6fb;
+  padding: 80px 0 80px 0;
+}
+
+.services-sub {
+  max-width: 60%;
+  font: 400 1.6em/1.5 sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+.hs-form fieldset.form-columns-1 input.hs-input {
+  width: 100%;
+}
+
+#vendor_type_category_picklist-d84cfd1e-90f3-4a88-9dc2-0e3d6e2f7394,
+#referred_by_message-d84cfd1e-90f3-4a88-9dc2-0e3d6e2f7394,
+#referred_by-d84cfd1e-90f3-4a88-9dc2-0e3d6e2f7394 {
+	width: 101%;
+	margin-top: 10px;
+}
+
+#vendor_type_category_picklist-d84cfd1e-90f3-4a88-9dc2-0e3d6e2f7394 {
+	height: 
+}
+
+input.hs-input {
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+}
+
+input.hs-button {
+  position: relative;
+  width: 100%; 
+   top: 10px; 
+  left: 0;
+  height: 42px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #59bfc7;
+  background-image: -webkit-linear-gradient(top,rgba(0,0,0,0),rgba(0,0,0,0));
+}
+
+.hs-form fieldset.form-columns-1 .hs-input {
+  width: 100%;
+}
