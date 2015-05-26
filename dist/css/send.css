@@ -4,7 +4,7 @@
 }
 
 .home-lead {
-   padding-top: 0;
+  padding-top: 0;
   margin-top: -10px;
   font-size: 40px;
 }
@@ -13,12 +13,31 @@
   font-size: 20px;
 }
 
+input {
+  line-height: 100%;
+  height: 42px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="phone"],
+textarea {
+  font-size: 13px;
+}
+
+input[placeholder] {
+	padding-bottom: 12px;
+}
+
+textarea {
+	border: 1px solid #d2d2d2;
+}
+
 section.invite {
   display: block;
   height: auto;
-/*  min-height: 500px;
-  max-height: 800px;*/
   margin-top: -110px;
+  bottom: 0;
   background: #f0f6fb;
   padding: 80px 0 80px 0;
 }
@@ -29,6 +48,7 @@ section.invite {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.7;
+  padding-bottom: 40px; 
 }
 
 .hs-form fieldset.form-columns-1 input.hs-input {
@@ -38,12 +58,25 @@ section.invite {
 #vendor_type_category_picklist-d84cfd1e-90f3-4a88-9dc2-0e3d6e2f7394,
 #referred_by_message-d84cfd1e-90f3-4a88-9dc2-0e3d6e2f7394,
 #referred_by-d84cfd1e-90f3-4a88-9dc2-0e3d6e2f7394 {
-	width: 101%;
+	width: 100%;
 	margin-top: 10px;
 }
 
 #vendor_type_category_picklist-d84cfd1e-90f3-4a88-9dc2-0e3d6e2f7394 {
-	height: 
+  height: 42px;
+  background: #fff;
+  color: #B0B0B0;
+  font-size: 13px;
+  border-radius: 0px;
+  border: 1px solid #d2d2d2;
+}
+
+#referred_by_message-d84cfd1e-90f3-4a88-9dc2-0e3d6e2f7394 {
+  height: 42px;
+}
+
+label {
+	display: none;
 }
 
 input.hs-input {
@@ -54,8 +87,8 @@ input.hs-input {
 
 input.hs-button {
   position: relative;
-  width: 100%; 
-   top: 10px; 
+  width: 99%; 
+  top: 15px; 
   left: 0;
   height: 42px;
   font-size: 14px;
@@ -67,4 +100,68 @@ input.hs-button {
 
 .hs-form fieldset.form-columns-1 .hs-input {
   width: 100%;
+}
+
+
+@media (max-width: 767px) {
+	.input>input.hs-input {
+  	position: relative;
+  	width: 100%;
+  }
+
+  .home-lead {
+	  padding-top: 0;
+	  font-size: 30px;
+	}
+
+	 .home-sub {
+	  padding-top: 0;
+	  font-size: 18px;
+	  max-width: 90%;
+	}
+
+	.services-sub {
+	  max-width: 90%;
+	  margin-top: -20px;
+	  padding-top: 0px;
+	  padding-bottom: 40px
+	}
+
+}
+
+
+@media (min-device-width: 320px) and (max-width: 480px) {
+
+	.svg-send {
+	  margin-top: 5rem;
+	  width: 11rem;
+	}
+
+	.input>input.hs-input {
+  	position: relative;
+  	width: 100%;
+  }
+
+  .home-lead {
+	  padding-top: 0;
+	  font-size: 24px;
+	}
+
+	 .home-sub {
+	  padding-top: 0;
+	  font-size: 16px;
+	  max-width: 90%;
+	}
+
+	.services-sub {
+		padding-top: 0px;
+	  max-width: 90%;
+	  padding-bottom: 40px
+	}
+
+	input#firstname-d84cfd1e-90f3-4a88-9dc2-0e3d6e2f7394, 
+	input#lastname-d84cfd1e-90f3-4a88-9dc2-0e3d6e2f7394 {
+	  width: 100%;
+	}
+
 }
