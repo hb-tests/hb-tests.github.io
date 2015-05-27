@@ -1,29 +1,21 @@
 ---
-layout: invite_layout
+layout: send_invite
 title: Home
 slug: home
 lead: 
 base_url: "../"
 ---
-<body onload="mixpanel.track('~page load: invite v0')">
+<body onload="mixpanel.track('~page load: invite')">
 <main id="content" role="main">
   <div class="jumbotron hero" id="home">
     <div class="container">
       <div class="text-center">
-        <h2 class="home-lead">Join The Best Event Pros</h2>
-        <h3 class="home-sub">Build your network and collaborate seamlessly on exceptional events with HoneyBook.</h3>
-        <div class="row text-center">
-          <div class="">
-          <!-- <button class="btn btn-primary btn-lg btn-home" id="home-sign-up">APPLY NOW</button> -->
-            {% include invite_form.html %}
-          </div>
-        </div>
+        <img class="svg-send" src="https://dl.dropboxusercontent.com/u/11221717/honeybook/invite_message.svg" type="image/svg+xml"></img>
+        <h2 class="home-lead">Earn Up To $50 For Everyone You Invite</h2>
+        <h3 class="home-sub">Our favorite people are your colleagues. You love them, we want to meet them. Bring the people you love to work with into HoneyBook.</h3>
        <!--  <i class="fa fa-2x fa-chevron-down light text-center fa-home-container"></i> -->
       </div>
     </div>
   </div>
-  {% include services.html %}
-  {% include async_scripts.html %}
-  {% include customers.html %}
-  {% include footer.html %}
+  {% include invite_send.html %}
 </main>
