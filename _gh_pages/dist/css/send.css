@@ -57,12 +57,20 @@ section.invite {
 
 #vendor_type_category_picklist-d84cfd1e-90f3-4a88-9dc2-0e3d6e2f7394,
 #referred_by_message-d84cfd1e-90f3-4a88-9dc2-0e3d6e2f7394,
-#referred_by-d84cfd1e-90f3-4a88-9dc2-0e3d6e2f7394 {
+#referred_by-d84cfd1e-90f3-4a88-9dc2-0e3d6e2f7394,
+#vendor_type_category_picklist-5bb609af-86df-4a44-b372-26975dc6fc1d,
+#referred_by-5bb609af-86df-4a44-b372-26975dc6fc1d,
+#referred_by_message-5bb609af-86df-4a44-b372-26975dc6fc1d,
+#vendor_type_category_picklist-e6ccf6fd-16c5-4531-8ba0-fb0fb1821583,
+#referred_by-e6ccf6fd-16c5-4531-8ba0-fb0fb1821583,
+#referred_by_message-e6ccf6fd-16c5-4531-8ba0-fb0fb1821583 {
 	width: 100%;
 	margin-top: 10px;
 }
 
-#vendor_type_category_picklist-d84cfd1e-90f3-4a88-9dc2-0e3d6e2f7394 {
+#vendor_type_category_picklist-d84cfd1e-90f3-4a88-9dc2-0e3d6e2f7394,
+#vendor_type_category_picklist-5bb609af-86df-4a44-b372-26975dc6fc1d,
+#vendor_type_category_picklist-e6ccf6fd-16c5-4531-8ba0-fb0fb1821583 {
   height: 42px;
   background: #fff;
   color: #B0B0B0;
@@ -71,7 +79,9 @@ section.invite {
   border: 1px solid #d2d2d2;
 }
 
-#referred_by_message-d84cfd1e-90f3-4a88-9dc2-0e3d6e2f7394 {
+#referred_by_message-d84cfd1e-90f3-4a88-9dc2-0e3d6e2f7394,
+#referred_by_message-5bb609af-86df-4a44-b372-26975dc6fc1d,
+#referred_by_message-e6ccf6fd-16c5-4531-8ba0-fb0fb1821583 {
   height: 92px;
 }
 
@@ -160,7 +170,11 @@ input.hs-button {
 	}
 
 	input#firstname-d84cfd1e-90f3-4a88-9dc2-0e3d6e2f7394, 
-	input#lastname-d84cfd1e-90f3-4a88-9dc2-0e3d6e2f7394 {
+	input#lastname-d84cfd1e-90f3-4a88-9dc2-0e3d6e2f7394,
+  input#firstname-e6ccf6fd-16c5-4531-8ba0-fb0fb1821583,
+  input#lastname-e6ccf6fd-16c5-4531-8ba0-fb0fb1821583,
+  input#firstname-5bb609af-86df-4a44-b372-26975dc6fc1d,
+  input#lastname-5bb609af-86df-4a44-b372-26975dc6fc1d {
 	  width: 100%;
 	}
 
