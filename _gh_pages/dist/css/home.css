@@ -658,11 +658,13 @@ span.line-sep > i {
 }
 
 span.line-sep > i:before {
-  content: '❝';
+  content: '“';
   text-align: center;
   display: block;
-  font-size: 27px;
-  padding: 4px 0px;
+  font-size: 57px;
+  font-family: Georgia, Serif;
+  margin-top: -5px;
+  padding: 0px 0px;
   position: relative;
   width: 100%;
 }
