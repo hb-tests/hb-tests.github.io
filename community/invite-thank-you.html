@@ -3,9 +3,9 @@ layout: send_invite
 title: Home
 slug: home
 lead: 
-base_url: "../"
+base_url: "../../"
 ---
-<body onload="mixpanel.track('~page load: invite complete')">
+<body onload="mixpanel.track('~page load: sales invite')">
 <main id="content" role="main">
   <div class="jumbotron hero" id="home">
     <div class="container">
@@ -19,5 +19,5 @@ base_url: "../"
       </div>
     </div>
   </div>
-  {% include invite_send.html %}
+  {% include community/community_send.html %}
 </main>
