@@ -20,7 +20,7 @@ h1 {
   color: #545454;
   font-weight: 200;
   font-size: 32px;
-  margin-top: 35px;
+  margin-top: 15px;
   margin-bottom: 5px;
 }
 h2 {
@@ -53,6 +53,9 @@ a:hover {
   border-bottom: 1px solid #E8E8E8;
   height: 50px;
   margin-top: -36px;
+}
+.button-cta {
+  padding-top: 30px;
 }
 .btn {
   background: #54BFC8;
@@ -104,6 +107,8 @@ section li {
 .timeline {
   padding: 0 15px;
   background: #F0F0F0;
+  margin-bottom: 15px;
+  box-shadow: 1px 2px 0px rgba(0, 0, 0, 0.07);
 }
 .timeline .row {
   border-bottom: 1px solid #ddd;
@@ -112,8 +117,12 @@ section li {
 .timeline .row.last {
   border-bottom: 0px;
 }
-.timeline .time {
-  text-align: right;
+.timeline .title {
+  background: #ddd;
+  color: #fff;
+  font-size: 14px;
+  padding: 5px;
+  color: #444;
 }
 .timeline p {
   padding: 0px;
@@ -124,20 +133,46 @@ section li {
 .timeline span {
   font-size: 12px;
 }
+.timeline .time {
+  text-align: right;
+}
+.timeline .time p {
+  font-size: 14px;
+}
 .team-members {
   margin-top: 30px;
 }
 .team-members .team-member {
   margin: 15px 0;
 }
+.team-members .team-member .host-info {
+  font-size: 12px;
+  text-align: center;
+  color: #999;
+}
+.team-members .team-member .recommend-button {
+  color: #fff;
+  background-color: #54BFC8;
+  padding: 5px 10px;
+  display: inline-block;
+  margin-top: 5px;
+}
+.team-members .team-member .recommend-button:hover {
+  text-decoration: none;
+}
 .team-members img {
   float: left;
   margin-right: 15px;
+  margin-top: 10px;
 }
 .team-members .member-text {
   overflow: hidden;
   padding-top: 10px;
 }
+.team-members .member-name {
+  color: #666;
+}
 .team-members .member-info {
   color: #999;
+  font-size: 12px;
 }
