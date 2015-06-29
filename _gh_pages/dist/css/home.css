@@ -398,7 +398,7 @@ section.services {
 }
 
 .services-organized {
-  background: #f5832a;
+  background: #27b893;
 }
 
 .services-collaboration {
@@ -410,7 +410,7 @@ section.services {
 }
 
 .container-organized:hover {
-  border: 1px solid #f5832a;
+  border: 1px solid #27b893;
 }
 
 .container-collaboration:hover {
@@ -454,7 +454,7 @@ section.services {
 }
 
 .organized {
-  color: #f5832a;
+  color: #27b893;
 }
 
 .collaboration {

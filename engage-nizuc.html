@@ -1,12 +1,12 @@
 ---
-layout: home
+layout: invite_layout
 title: Home
 slug: home
 lead: 
 base_url: "../"
 ---
-<link href="{{ page.base_url }}dist/css/network.min.css" rel="stylesheet">
-<body onload="mixpanel.track('~page load: messaging v3 fb')">
+<link href="{{ page.base_url }}dist/css/nizuc.css" rel="stylesheet">
+<body onload="mixpanel.track('~page load: engage')">
 <main id="content" role="main">
   <div class="jumbotron hero" id="home">
     <div class="container">
@@ -16,7 +16,7 @@ base_url: "../"
         <div class="row text-center">
           <div class="">
           <!-- <button class="btn btn-primary btn-lg btn-home" id="home-sign-up">APPLY NOW</button> -->
-            {% include network_form.html %}
+            {% include forms/nizuc_form.html %}
           </div>
         </div>
        <!--  <i class="fa fa-2x fa-chevron-down light text-center fa-home-container"></i> -->
@@ -24,7 +24,6 @@ base_url: "../"
     </div>
   </div>
   {% include services.html %}
-  {% include async_scripts.html %}
   {% include customers.html %}
   {% include getting_started.html %}
 </main>
