@@ -112,6 +112,13 @@ input.hs-button {
   width: 100%;
 }
 
+.hs-form fieldset.form-columns-1 {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+}
+
 .success {
   background-color: #f0f6fb;
   border: 1px solid #d2d2d2;
