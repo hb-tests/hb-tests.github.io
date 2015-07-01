@@ -24,13 +24,13 @@
   <body class="">
 
     <!-- Page content of course! -->
-    <body onload="mixpanel.track('~page load: referral')">
+    <body onload="mixpanel.track('~page load: referral signup')">
 <main id="content" role="main">
   <div class="jumbotron hero" id="home">
     <div class="container">
       <div class="text-center">
-        <h2 class="home-lead">Welcome To HoneyBook</h2>
-        <h3 class="home-sub">The best way to streamline your business, collaborate with your network and create magical events.</h3>
+        <h2 class="home-lead">Create Magic, Not Paperwork</h2>
+        <h3 class="home-sub">Bring your events to life on HoneyBook so you can focus on the creative work you love.</h3>
         <div class="row text-center">
           <div class="">
           <!-- <button class="btn btn-primary btn-lg btn-home" id="home-sign-up">APPLY NOW</button> -->
@@ -95,8 +95,6 @@
       </div>  
     </div>
   </section>
-  <script async src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script async src="../dist/js/app.js"></script>
   <section class="customers text-center">
     <div class="container">
       <h2 class="lead community-lead text-center">See What Our Customers Say</h2>
@@ -145,15 +143,41 @@
       </div>
     </div>
   </section>
-    <section class="get-going">
-    <div class="container">
-      <h2 class="lead footer-lead text-center">Get A Free Demo Now</h2>
-<!--        <h3 class="home-sub text-center">Keep your business organized and running smoothly so you can focus on clients, vendors and great events.</h3> -->
-      <div class="text-center">
-          <button track="~footer sign up" class="btn btn-primary btn-lg btn-home btn-footer" id="home-sign-up-footer">START CONSULTATION</button>
+  <section class="getting-started">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-4">
+				<div class="step">
+					<div class="step-inner">
+						<img class="img-responsive center-block img-started" src="../dist/img/schedule.png"></img>
+					</div>
+					<p class="profession">Schedule some time with one of our product specialists</p>
+				</div>
+			</div>
+			<div class="col-lg-4">
+				<div class="step">
+					<div class="step-inner">
+						<img class="img-responsive center-block img-started" src="../dist/img/consult.png"></img>
+					</div>
+					<p class="profession">Let us walk you through the HoneyBook product to see if we’re a good fit</p>
+				</div>
+			</div>
+			<div class="col-lg-4">
+				<div class="step">
+					<div class="step-inner">
+						<img class="img-responsive center-block img-started" src="../dist/img/setup.png"></img>
+					</div>
+					<p class="profession">Send over your documents and we’ll build your account for you</p>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="text-center">
+          <button id="home-sign-up-footer" track="~request form" class="btn btn-primary btn-lg btn-home">GET STARTED NOW</button>
       </div>
-    </div>
-  </section>
+		</div>
+	</div>
+</section>
 </main>
 
     <!-- Footer and Other Javascript. -->
