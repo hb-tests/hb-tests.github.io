@@ -1,19 +1,19 @@
 $(document).ready(function() {
 
   $('#home-btn').click(function() {
-    console.log('hello')
-    $('#home-btn').hide()
-    $('#home-form').show()
+    $('#home-btn').hide();
+    $('#home-form').show();
+    mixpanel.track('~request form', { "variation": 0} )
   });
 
   //mixpanel track
   $('[track]').click(function() {
-    mixpanel.track($(this).attr("track"))  
+    mixpanel.track($(this).attr("track"))
   });
 
-  $(window).on( "scroll", function() {
-    console.log('scrollin')
-    mixpanel.track('~page scrolled')
+  $(window).one( "scroll", function() {
+    console.log('scrollin');
+    mixpanel.track('~page scrolled');
   });
 
   //signup
