@@ -3,7 +3,6 @@ $(document).ready(function() {
   $('#home-btn').click(function() {
     $('#home-btn').hide();
     $('#home-form').show();
-    mixpanel.track('~request form', { "variation": 0} )
   });
 
   //mixpanel track
