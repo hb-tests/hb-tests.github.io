@@ -1,0 +1,29 @@
+---
+layout: invite_layout
+title: Home
+slug: home
+lead: 
+base_url: "../"
+---
+<link href="{{ page.base_url }}dist/css/nizuc.css" rel="stylesheet">
+<body onload="mixpanel.track('~page load: off beat bride')">
+<main id="content" role="main">
+  <div class="jumbotron hero" id="home">
+    <div class="container">
+      <div class="text-center">
+        <h2 class="home-lead">You Are Invited!</h2>
+        <h3 class="home-sub">HoneyBook is the best way to streamline your events business and create magical events.</h3>
+        <div class="row text-center">
+          <div class="">
+          <!-- <button class="btn btn-primary btn-lg btn-home" id="home-sign-up">APPLY NOW</button> -->
+            {% include forms/offbeat_form.html %}
+          </div>
+        </div>
+       <!--  <i class="fa fa-2x fa-chevron-down light text-center fa-home-container"></i> -->
+      </div>
+    </div>
+  </div>
+  {% include services.html %}
+  {% include customers.html %}
+  {% include getting_started.html %}
+</main>

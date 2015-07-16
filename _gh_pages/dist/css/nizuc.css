@@ -29,12 +29,14 @@ textarea {
   width: 100%;
 }
 
-#vendor_type_category_picklist-9685f85a-691b-43bc-a223-b245cfa70572 {
+#vendor_type_category_picklist-9685f85a-691b-43bc-a223-b245cfa70572,
+#vendor_type_category_picklist-5c8789d4-7c81-49ef-a02a-f793e044aa5e {
   width: 100%;
   margin-top: 10px;
 }
 
-#vendor_type_category_picklist-9685f85a-691b-43bc-a223-b245cfa70572 {
+#vendor_type_category_picklist-9685f85a-691b-43bc-a223-b245cfa70572,
+#vendor_type_category_picklist-5c8789d4-7c81-49ef-a02a-f793e044aa5e {
   height: 42px;
   background: #fff;
   color: #B0B0B0;
@@ -106,7 +108,9 @@ input.hs-button {
   }
 
   input#firstname-9685f85a-691b-43bc-a223-b245cfa70572,
-  input#lastname-9685f85a-691b-43bc-a223-b245cfa70572 {
+  input#lastname-9685f85a-691b-43bc-a223-b245cfa70572,
+  input#firstname-5c8789d4-7c81-49ef-a02a-f793e044aa5e,
+  input#lastname-5c8789d4-7c81-49ef-a02a-f793e044aa5e {
     width: 100%;
   }
 
