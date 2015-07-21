@@ -1,0 +1,34 @@
+---
+layout: home
+title: Home
+slug: home
+lead: 
+base_url: "../"
+---
+<link href="{{ page.base_url }}dist/css/venue.css" rel="stylesheet">
+<body onload="mixpanel.track('~page load: venue lp')">
+<main id="content" role="main">
+  <div class="jumbotron hero" id="home-venue">
+    <div class="container">
+      <div class="text-center">
+        <h2 class="home-lead">Manage Your Venue Like A Pro</h2>
+        <h3 class="home-sub">HoneyBook helps your business look as professional as your venue.</h3>
+        <div class="row text-center">
+          <div class="">
+          <!-- <button class="btn btn-primary btn-lg btn-home" id="home-sign-up">APPLY NOW</button> -->
+            <div class="text-center">
+                <button id="home-btn" track="~request form" class="btn btn-primary btn-lg btn-home">GET STARTED</button>
+            </div>
+            <div id="home-form" style="display:none;">
+              {% include forms/venue_form.html %}
+            </div>
+          </div>
+        </div>
+       <!--  <i class="fa fa-2x fa-chevron-down light text-center fa-home-container"></i> -->
+      </div>
+    </div>
+  </div>
+  {% include venue_services.html %}
+  {% include customers.html %}
+  {% include getting_started.html %}
+</main>

@@ -56,19 +56,34 @@
 </header>
 
     <!-- Page content of course! -->
-    <body onload="mixpanel.track('~page load: submission')">
+    <link href="../dist/css/venue.css" rel="stylesheet">
+<body onload="mixpanel.track('~page load: venue lp')">
 <main id="content" role="main">
-  <div class="jumbotron hero" id="home">
+  <div class="jumbotron hero" id="home-venue">
     <div class="container">
       <div class="text-center">
-        <h2 class="home-lead">Thank You!</h2>
-        <h3 class="home-sub">Someone from HoneyBook will be in touch shortly. If you have any questions, please don’t hesitate to <a href="mailto:info@honeybook.com">email</a> us.</h3>
+        <h2 class="home-lead">Manage Your Venue Like A Pro</h2>
+        <h3 class="home-sub">HoneyBook helps your business look as professional as your venue.</h3>
         <div class="row text-center">
-          <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
-          <h3 class="home-sub">Follow us on:</h3>
-          <a track="~lp fb thank you" href="https://www.facebook.com/honeybook.co" target="blank"><i class="fa fa-2x fa-facebook fa-thank-you"></i></a>
-          <a track="~lp tw thank you" href="https://twitter.com/honeybook" target="blank"><i class="fa fa-2x fa-twitter fa-thank-you"></i></a>
-          <a track="~lp ins thank you" href="http://instagram.com/honeybook" target="blank"><i class="fa fa-2x fa-instagram fa-thank-you"></i></a>
+          <div class="">
+          <!-- <button class="btn btn-primary btn-lg btn-home" id="home-sign-up">APPLY NOW</button> -->
+            <div class="text-center">
+                <button id="home-btn" track="~request form" class="btn btn-primary btn-lg btn-home">GET STARTED</button>
+            </div>
+            <div id="home-form" style="display:none;">
+              <div class="row">
+	<div class="col-xl-4 col-xl-offset-4 col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
+		<script charset="utf-8" src="https://js.hsforms.net/forms/current.js"></script>
+		<script>
+			hbspt.forms.create({ 
+		    portalId: '421588',
+		    formId: '4b649733-1b21-44eb-99fc-067465997a02',
+		    css: '.hbst-form:width:100%;'
+		  });
+		</script>
+	</div>
+</div>
+            </div>
           </div>
         </div>
        <!--  <i class="fa fa-2x fa-chevron-down light text-center fa-home-container"></i> -->
@@ -87,8 +102,8 @@
             </div>
             <div class="services-inner">
               <i class="fa fa-file-text-o fa-3x fa-services brand"></i>
-              <h2 class="services-lead brand">Proposals</h2>
-              <p class="services-details">Create custom proposals in minutes that impress your clients and vendors</p>
+              <h2 class="services-lead brand">Contracts</h2>
+              <p class="services-details">Create custom contracts in minutes that impress your clients and vendors</p>
             </div>      
           </div>
         </div>
@@ -112,7 +127,7 @@
             <div class="services-inner">
               <i class="fa fa-calendar fa-3x fa-services collaboration"></i>
               <h2 class="services-lead collaboration">Organization</h2>
-              <p class="services-details">Keep all your documents and schedule organized when you're on the go</p>
+              <p class="services-details">Easily keep all your contracts and invoinces organized when you're busy</p>
             </div>      
           </div>
         </div>
@@ -203,22 +218,6 @@
 	</div>
 </section>
 </main>
-<!-- Facebook Conversion Code for honeybook-pages -->
-<script>(function() {
-var _fbq = window._fbq || (window._fbq = []);
-if (!_fbq.loaded) {
-var fbds = document.createElement('script');
-fbds.async = true;
-fbds.src = '//connect.facebook.net/en_US/fbds.js';
-var s = document.getElementsByTagName('script')[0];
-s.parentNode.insertBefore(fbds, s);
-_fbq.loaded = true;
-}
-})();
-window._fbq = window._fbq || [];
-window._fbq.push(['track', '6019485997530', {'value':'0.00','currency':'USD'}]);
-</script>
-<noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?ev=6019485997530&amp;cd[value]=0.00&amp;cd[currency]=USD&amp;noscript=1" /></noscript>
 
   </body>
 </html>

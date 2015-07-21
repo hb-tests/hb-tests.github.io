@@ -1,0 +1,121 @@
+#home-venue {
+  position: relative;
+  height: auto;
+  max-height: 690px;
+  top: -80px;
+  right: 0;
+  left: 0;
+  background:
+    linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),
+    url("/dist/img/venue_background.jpg") fixed center bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+input {
+  line-height: 100%;
+  height: 42px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="phone"],
+textarea {
+  font-size: 13px;
+}
+
+input[placeholder] {
+  padding-bottom: 12px;
+}
+
+textarea {
+  border: 1px solid #d2d2d2;
+}
+
+.hs-form fieldset.form-columns-1 input.hs-input {
+  width: 100%;
+}
+
+#vendor_type_category_picklist-ccc72ea1-cb18-4f2a-8e3f-ed46d566ba3c {
+  width: 100%;
+  margin-top: 10px;
+}
+
+#vendor_type_category_picklist-ccc72ea1-cb18-4f2a-8e3f-ed46d566ba3c {
+  height: 42px;
+  background: #fff;
+  color: #B0B0B0;
+  font-size: 13px;
+  border-radius: 0px;
+  border: 1px solid #d2d2d2;
+}
+
+
+label {
+  display: none;
+}
+
+input.hs-input {
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+}
+
+input.hs-button {
+  position: relative;
+  width: 99%;
+  top: 5px;
+  left: -3px;
+  height: 42px;
+  font-size: 14px;
+  font-weight: 700;
+  /* margin-bottom: 40px; */
+  color: #fff;
+  background-color: #59bfc7;
+  background-image: -webkit-linear-gradient(top,rgba(0,0,0,0),rgba(0,0,0,0))
+}
+
+.hs-form fieldset.form-columns-1 .hs-input {
+  width: 100%;
+}
+
+.hs-form fieldset.form-columns-1 {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+}
+
+.success {
+  background-color: #f0f6fb;
+  border: 1px solid #d2d2d2;
+  padding: 10px 20px;
+  width: 320px;
+  margin: 0 auto;
+  color: #666666;
+}
+
+@media (max-width: 767px) {
+  .input>input.hs-input {
+    position: relative;
+    width: 100%;
+  }
+
+}
+
+
+@media (min-device-width: 320px) and (max-width: 480px) {
+
+
+  .input>input.hs-input {
+    position: relative;
+    width: 100%;
+  }
+
+  input#firstname-ccc72ea1-cb18-4f2a-8e3f-ed46d566ba3c,
+  input#lastname-ccc72ea1-cb18-4f2a-8e3f-ed46d566ba3c {
+    width: 100%;
+  }
+
+}
