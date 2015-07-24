@@ -1,0 +1,34 @@
+---
+layout: home
+title: Home
+slug: home
+lead: 
+base_url: "../"
+---
+<link href="{{ page.base_url }}dist/css/utq.css" rel="stylesheet">
+<body onload="mixpanel.track('~page load: contact added')">
+<main id="content" role="main">
+  <div class="jumbotron hero" id="home">
+    <div class="container">
+      <div class="text-center">
+        <h2 class="home-lead">Welcome To HoneyBook</h2>
+        <h3 class="home-sub">Design & manage events like a pro. HoneyBook helps your business look as professional as your events.</h3>
+        <div class="row text-center">
+          <div class="">
+          <!-- <button class="btn btn-primary btn-lg btn-home" id="home-sign-up">APPLY NOW</button> -->
+            <div class="text-center">
+                <button id="home-btn" track="~request form" class="btn btn-primary btn-lg btn-home">GET STARTED</button>
+            </div>
+            <div id="home-form" style="display:none;">
+              {% include forms/utq_form.html %}
+            </div>
+          </div>
+        </div>
+       <!--  <i class="fa fa-2x fa-chevron-down light text-center fa-home-container"></i> -->
+      </div>
+    </div>
+  </div>
+  {% include services.html %}
+  {% include customers.html %}
+  {% include getting_started.html %}
+</main>
