@@ -24,7 +24,7 @@
                 var q4ID = "entry.51706867";
                 var q5ID = "entry.897423061";
                 var q6ID = "entry.1999098183";
-                var q7ID = "entry.472406571";
+                var q7ID = "entry.1104764436";
                 var q8ID = "entry.52830598";
                 var baseURL = 'https://docs.google.com/forms/d/1Xc_jcrzGP-JNvXSuf1Kyy5OYjE_P4ieFCw7UpcmU2r4/formResponse?';
                 var submitRef = '&submit=Submit';
@@ -49,7 +49,7 @@
     FV.init();
 
     /* MIX PANEL */
-    mixpanel.track("lp-test-schedule:Load");
+    mixpanel.track("lp-test-communication:Load");
 
 
     $('[track]').click(function() {
