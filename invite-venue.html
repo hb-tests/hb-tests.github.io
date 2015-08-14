@@ -1,0 +1,22 @@
+---
+layout: send_invite
+title: Home
+slug: home
+lead: 
+base_url: "../"
+---
+<link href="{{ page.base_url }}dist/css/venue-invite.css" rel="stylesheet">
+<body onload="mixpanel.track('~page load: venue invite')">
+<main id="content" role="main">
+  <div class="jumbotron hero" id="home-venue">
+    <div class="container">
+      <div class="text-center">
+        <img class="svg-send" src="{{ page.base_url }}dist/img/venue-invite.svg" type="image/svg+xml"></img>
+        <h2 class="home-lead">Dinner is on HoneyBook Tonight!</h2>
+        <h3 class="home-sub">Help grow the HoneyBook network of venues by inviting your favorite event and wedding destinations.</h3>
+       <!--  <i class="fa fa-2x fa-chevron-down light text-center fa-home-container"></i> -->
+      </div>
+    </div>
+  </div>
+  {% include forms/invite_venue.html %}
+</main>
