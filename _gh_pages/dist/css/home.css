@@ -705,10 +705,31 @@ span.line-sep:after {
   width: 60%;
 }
 
+/* Features ----------- */
+
+section.features {
+  padding: 8rem 0 12rem 0;
+  background: #ddefef;
+}
+
+.fa-feature {
+  color: #5abfc6;
+}
+
+.row-features {
+  padding-top: 80px;
+}
+
+.feature-title {
+  color: #a7a9ab;
+  font-weight: 400;
+  padding-top: 10px;
+}
+
 /* Getting Started ----------- */
 
 section.getting-started {
-  padding: 10rem 0;
+  padding: 5rem 0;
   background: #f1f1f1;
 }
 
