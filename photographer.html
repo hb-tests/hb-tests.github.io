@@ -1,0 +1,35 @@
+---
+layout: home
+title: Home
+slug: home
+lead: 
+base_url: "../"
+---
+<link href="{{ page.base_url }}dist/css/photographer.css" rel="stylesheet">
+<body onload="mixpanel.track('~page load: photographer lp')">
+<main id="content" role="main">
+  <div class="jumbotron hero" id="home-photographer">
+    <div class="container">
+      <div class="text-center">
+        <h2 class="home-lead">Manage Events Like A Pro</h2>
+        <h3 class="home-sub">Honeybook makes it easy to organize your business leads, send proposals, take payments, and manage your clients all in one place. Try Honeybook for free today.</h3>
+        <div class="row text-center">
+          <div class="">
+          <!-- <button class="btn btn-primary btn-lg btn-home" id="home-sign-up">APPLY NOW</button> -->
+            <div class="text-center">
+                <button id="home-btn" track="~request form" class="btn btn-primary btn-lg btn-home">GET STARTED</button>
+            </div>
+            <div id="home-form" style="display:none;">
+              {% include forms/photographer_form.html %}
+            </div>
+          </div>
+        </div>
+       <!--  <i class="fa fa-2x fa-chevron-down light text-center fa-home-container"></i> -->
+      </div>
+    </div>
+  </div>
+  {% include venue_services.html %}
+  {% include features.html %}
+  {% include customers.html %}
+  {% include getting_started.html %}
+</main>
