@@ -242,8 +242,8 @@ input.hs-button:hover {
 }
 
 .community-lead {
-  font-size: 40px;
-  font-weight: 500;
+  font-size: 36px;
+  font-weight: 300;
 }
 
 .lead-sub {
@@ -327,10 +327,10 @@ input.hs-button:hover {
   padding-top: 60px;
   color: #FFF;
   line-height: 1.6;
-  font-weight: 400;
+  font-weight: 300;
   font-family: 'proxima-nova', helvetica;
   letter-spacing: 1px;
-  font-size: 50px;
+  font-size: 46px;
   text-shadow: 0 1px 4px rgba(75,75,75,.6);
 }
 
@@ -342,7 +342,7 @@ input.hs-button:hover {
   color: #fff;
   margin-bottom: 30px;
   font-size: 24px;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 1.7;
   text-shadow: 0 1px 1px rgba(75,75,75,0.6);
 }
@@ -438,6 +438,7 @@ section.services {
   margin: auto;
   font-size: 24px;
   font-family: 'proxima-nova', helvetica;
+  font-weight: 300;
 }
 
 .services-details {
