@@ -356,6 +356,12 @@ section.what_is_hb {
   margin-top: -80px;
 }
 
+/*VIDEO -----------------*/
+
+section.video {
+  padding: 8rem 0;
+}
+
 /*SERVICES SECTION -----------------*/
 
 section.services {
