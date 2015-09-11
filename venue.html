@@ -11,15 +11,15 @@ base_url: "../"
   <div class="jumbotron hero" id="home-venue">
     <div class="container">
       <div class="text-center">
-        <h2 class="home-lead">Host Magical Events</h2>
-        <h3 class="home-sub">Connect, manage and grow your business in one place.</h3>
+        <h2 class="home-lead">Manage Your Venue Like A Pro</h2>
+        <h3 class="home-sub">HoneyBook helps your business look as professional as your venue.</h3>
         <div class="row text-center">
           <div class="">
           <!-- <button class="btn btn-primary btn-lg btn-home" id="home-sign-up">APPLY NOW</button> -->
-            <div class="text-center">
+<!--             <div class="text-center">
                 <button id="home-btn" track="~request form" class="btn btn-primary btn-lg btn-home">GET STARTED</button>
-            </div>
-            <div id="home-form" style="display:none;">
+            </div> -->
+            <div id="home-form">
               {% include forms/venue_form.html %}
             </div>
           </div>
@@ -30,6 +30,8 @@ base_url: "../"
   </div>
   {% include venue_services.html %}
   {% include pipeline.html %}
+  {% include contracts.html %}
+  {% include event_page.html %}
   {% include features.html %}
   {% include customers.html %}
   {% include getting_started.html %}

@@ -717,6 +717,8 @@ span.line-sep:after {
 section.features {
   padding: 8rem 0 12rem 0;
   background: #ddefef;
+  position: relative;
+  z-index: 600;
 }
 
 .fa-feature {

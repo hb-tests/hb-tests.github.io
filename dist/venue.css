@@ -12,6 +12,21 @@
   background-repeat: no-repeat;
 }
 
+.lead {
+    color: #666;
+    font-family: 'proxima-nova semibold',sans-serif;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.sub {
+  color: #666;  
+  margin: auto;
+  font-size: 24px;
+  font-family: proxima-nova, helvetica;
+  font-weight: 300;
+}
+
 section.services {
   background: #fff;
 }
@@ -24,8 +39,16 @@ section.pipeline {
   padding-bottom: 160px;
 }
 
+section.event-page {
+  display: block;
+  padding: 8rem 0 0 0;
+  height: auto;
+  margin-bottom: -81px;
+  overflow: hidden;
+}
+
 .img-pipeline {
-  width: 80%;
+  width: 70%;
   padding-top: 6rem;
 }
 

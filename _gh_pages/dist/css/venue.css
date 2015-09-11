@@ -12,6 +12,25 @@
   background-repeat: no-repeat;
 }
 
+.lead {
+    color: #666;
+    font-family: 'proxima-nova semibold',sans-serif;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.sub {
+  color: #666;  
+  margin: auto;
+  font-size: 24px;
+  font-family: proxima-nova, helvetica;
+  font-weight: 300;
+}
+
+.push {
+  padding-top: 60px;
+}
+
 section.services {
   background: #fff;
 }
@@ -24,9 +43,32 @@ section.pipeline {
   padding-bottom: 160px;
 }
 
+section.event-page {
+  display: block;
+  padding: 8rem 0 0 0;
+  height: auto;
+  background: #f1f1f1;
+  overflow: hidden;
+}
+
+section.contracts {
+  position: relative;
+  display: block;
+  padding: 8rem 0 0 0;
+  height: auto;
+  background: #fff;
+  overflow: hidden;
+  z-index: 500;
+}
+
+
 .img-pipeline {
-  width: 80%;
+  width: 70%;
   padding-top: 6rem;
+}
+
+.img-sink {
+  margin-bottom: -24px;
 }
 
 input {
