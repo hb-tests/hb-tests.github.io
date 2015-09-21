@@ -1,5 +1,5 @@
 {
-  "name": "elasticobx",
+  "name": "honeybook",
   "version": "3.0",
   "main": [
     "./dist/js/bootstrap.js", 
