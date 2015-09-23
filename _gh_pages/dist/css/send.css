@@ -36,10 +36,38 @@ textarea {
 section.invite {
   display: block;
   height: auto;
-  margin-top: -110px;
   bottom: 0;
   background: #f0f6fb;
   padding: 80px 0 80px 0;
+}
+
+section.why-invite {
+  padding: 0rem 0 12rem 0;
+}
+
+.invite-block {
+  margin: 10px;
+  min-height: 250px;
+}
+
+.invite-block > h3 {
+  padding-top: 110px;
+  color: #fff;
+}
+
+.community {
+  background: url("/dist/img/community.jpg") no-repeat center center;
+  background-size: 250px;
+}
+
+.relationships {
+  background: url("/dist/img/relationships.jpg") no-repeat center center;
+  background-size: 250px;
+}
+
+.collaboration {
+  background: url("/dist/img/collaboration.jpg") no-repeat center center;
+  background-size: 250px;
 }
 
 .services-sub {
@@ -192,5 +220,20 @@ input.hs-button {
   input#lastname-5bb609af-86df-4a44-b372-26975dc6fc1d {
 	  width: 100%;
 	}
+
+  section.why-invite {
+    padding: 0rem 0 6rem 0;
+    margin-top: -60px;
+  }
+
+  .invite-block > h3 {
+    padding-top: 42px;
+    color: #fff;
+  }
+
+  .invite-block {
+    min-height: 110px;
+    height: 110px;
+  }
 
 }
