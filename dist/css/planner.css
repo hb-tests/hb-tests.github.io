@@ -26,15 +26,28 @@
   background-repeat: no-repeat;
 }
 
-.home-lead {
+.home-lead-b {
   padding-top: 80px;
   font-size: 61px;
+  color: #FFF;
+  line-height: 1.6;
+  font-weight: 300;
+  font-family: 'proxima-nova', helvetica;
+  letter-spacing: 1px;
+  text-shadow: 0 1px 4px rgba(75,75,75,.6);
 }
 
-.home-sub {
+.home-sub-b {
   max-width: 100%;
   float: left;
   font-size: 36px;
+  color: rgba(255,255,255,0.8);
+  font: 400 1.6em/1.5 sans-serif;
+  color: #fff;
+  margin-bottom: 30px;
+  font-weight: 300;
+  line-height: 1.7;
+  text-shadow: 0 1px 1px rgba(75,75,75,0.6);
 }
 
 #home-form-open {
@@ -184,13 +197,13 @@ input.hs-button {
     top: -80px;
   }
 
-  .home-lead {
+  .home-lead-b {
     padding-top: 0px;
     font-size: 24px;
     text-align: center;
   }
 
-  .home-sub {
+  .home-sub-b {
     max-width: 90%;
     font-size: 18px;
     text-align: center;
