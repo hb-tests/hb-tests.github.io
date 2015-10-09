@@ -8,23 +8,27 @@ base_url: "../"
 <link href="{{ page.base_url }}dist/css/planner.css" rel="stylesheet">
 <body onload="mixpanel.track('~page load: planner lp')">
 <main id="content" role="main">
-  <div class="jumbotron hero" id="home-planner">
+  <div class="jumbotron hero" id="home-planner-b">
     <div class="container">
-      <div class="text-center">
-        <h2 class="home-lead">Manage Events Like A Pro</h2>
-        <h3 class="home-sub">Design, organize and grow your business with HoneyBook.</h3>
-        <div class="row text-center">
-          <div class="">
-          <!-- <button class="btn btn-primary btn-lg btn-home" id="home-sign-up">APPLY NOW</button> -->
-            <div class="text-center">
-                <button id="home-btn" track="~request form" class="btn btn-primary btn-lg btn-home">REQUEST DEMO</button>
-            </div>
-            <div id="home-form" style="display:none;">
-              {% include forms/planner_form.html %}
-            </div>
+      <div class="row">
+        <div class="col-lg-8">
+          <h2 class="home-lead">Manage Events Like A Pro</h2>
+          <h3 class="home-sub">Design, organize and grow your business with HoneyBook.</h3>
+        </div>
+        <div class="col-lg-4">
+          <div id="home-form-open">
+            <h4 class="form-title">Join Hundreds Of Amazing Creative Professionals</h4>
+            <p class="form-lead">No Commitment • No Credit Card Required</p>
+            <script charset="utf-8" src="https://js.hsforms.net/forms/current.js"></script>
+            <script>
+              hbspt.forms.create({ 
+                portalId: '421588',
+                formId: '81ac4c5d-190d-49da-97e1-0cc6ae54b922',
+                css: '.hbst-form:width:100%;'
+              });
+            </script>
           </div>
         </div>
-       <!--  <i class="fa fa-2x fa-chevron-down light text-center fa-home-container"></i> -->
       </div>
     </div>
   </div>

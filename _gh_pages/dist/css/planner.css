@@ -12,6 +12,49 @@
   background-repeat: no-repeat;
 }
 
+#home-planner-b {
+  position: relative;
+  height: auto;
+  height: 500px;
+  top: -80px;
+  right: 0;
+  left: 0;
+  background:
+    linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.1)),
+    url("/dist/img/planner_background.jpg") fixed center bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.home-lead {
+  padding-top: 80px;
+  font-size: 61px;
+}
+
+.home-sub {
+  max-width: 100%;
+  float: left;
+  font-size: 36px;
+}
+
+#home-form-open {
+  margin-top: 90px;
+  margin-left: 40px;
+  background-color: #fff;
+  padding: 30px;
+  max-width: 350px;
+}
+
+.form-title {
+  font-size: 13px;
+  text-align: center;
+}
+
+.form-lead {
+  font-size: 12px;
+  text-align: center;
+}
+
 input {
   line-height: 100%;
   height: 42px;
@@ -61,6 +104,10 @@ input.hs-input {
   margin-top: 10px;
 }
 
+.hs-form-field {
+  margin-bottom: 20px;
+}
+
 input.hs-button {
   position: relative;
   width: 99%;
@@ -104,8 +151,15 @@ input.hs-button {
 }
 
 
-@media (min-device-width: 320px) and (max-width: 480px) {
+@media (max-width: 460px) {
 
+  #home-form-open {
+    margin-top: 80px;
+    margin-left: 0px;
+    background-color: #fff;
+    padding: 10px 10px 20px 17px;
+    max-width: 100%;
+  }
 
   .input>input.hs-input {
     position: relative;
@@ -117,4 +171,32 @@ input.hs-button {
     width: 100%;
   }
 
+  .hs-form-field {
+    margin-bottom: 5px;
+  }
+
+  .navbar-brand {
+    width: 130px;
+  }
+
+  #home-planner-b {
+    height: auto;
+    top: -80px;
+  }
+
+  .home-lead {
+    padding-top: 0px;
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .home-sub {
+    max-width: 90%;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .home-sub {
+    font-size: 14px;
+  }
 }
