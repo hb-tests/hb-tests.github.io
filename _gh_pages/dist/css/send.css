@@ -1,13 +1,17 @@
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+}
+
 #home-invite {
   position: relative;
   height: auto;
-  max-height: 640px;
+  height: 640px;
+  padding-top: 200px;
   top: -80px;
   right: 0;
   left: 0;
-  background:
-    linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)),
-    url("https://dl.dropboxusercontent.com/u/11221717/honeybook/web/IMG-Collectives1.jpg") fixed center bottom;
+  background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("https://dl.dropboxusercontent.com/u/11221717/bff_cover/BFF-32.jpg") center 25%;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -17,14 +21,43 @@
 	width: 14rem;
 }
 
+.fa-mom {
+  color: #fff;
+}
+
 .home-lead {
   padding-top: 0;
   margin-top: -10px;
-  font-size: 40px;
+  font-size: 70px;
+  font-weight: 400;
+  /*text-transform: uppercase;*/
+  font-family: 'Amatic SC', cursive;
 }
 
 .home-sub {
-  font-size: 20px;
+  font-size: 22px;
+  width: 100%;
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+
+.btn-started {
+  color: #fff;
+  background: transparent;
+  border: 2px solid #b897dc;
+  border-radius: .25rem;
+  letter-spacing: 2px;
+  padding: 11px 22px;
+  font-family: 'Amatic SC', cursive;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.btn-started:hover {
+  color: #fff;
+  background: #b897dc;
+  border: 2px solid #b897dc;
 }
 
 input {
@@ -53,6 +86,7 @@ section.invite {
   bottom: 0;
   background: #f0f6fb;
   padding: 80px 0 80px 0;
+  margin-top: -110px;
 }
 
 section.why-invite {
@@ -85,17 +119,30 @@ section.why-invite {
   background-size: 250px;
 }
 
-.services-sub {
-  max-width: 60%;
-  font: 400 1.6em/1.5 sans-serif;
-  font-size: 16px;
-  font-weight: 400;
+.services-mom-lead {
+  /*max-width: 80%;
+  font: 400 1.5em/1.5 sans-serif;
+  font-size: 14px;*/
+  font-weight: 300;
   line-height: 1.7;
-  padding-bottom: 40px; 
+}
+
+.services-sub {
+  max-width: 80%;
+  font: 400 1.5em/1.5 sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.7;
+  padding-bottom: 40px;
 }
 
 .hs-form fieldset.form-columns-1 input.hs-input {
   width: 100%;
+}
+
+.well-success {
+  max-width: 520px;
+  margin: 0 auto;
 }
 
 #vendor_type_category_picklist-d84cfd1e-90f3-4a88-9dc2-0e3d6e2f7394,
@@ -140,8 +187,8 @@ input.hs-input {
 
 input.hs-button {
   position: relative;
-  width: 99%; 
-  top: 15px; 
+  width: 99%;
+  top: 15px;
   left: 0;
   height: 42px;
   font-size: 14px;
@@ -227,7 +274,7 @@ input.hs-button {
 	  padding-bottom: 40px
 	}
 
-	input#firstname-d84cfd1e-90f3-4a88-9dc2-0e3d6e2f7394, 
+	input#firstname-d84cfd1e-90f3-4a88-9dc2-0e3d6e2f7394,
 	input#lastname-d84cfd1e-90f3-4a88-9dc2-0e3d6e2f7394,
   input#firstname-e6ccf6fd-16c5-4531-8ba0-fb0fb1821583,
   input#lastname-e6ccf6fd-16c5-4531-8ba0-fb0fb1821583,

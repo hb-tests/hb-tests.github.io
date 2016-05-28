@@ -1,0 +1,24 @@
+---
+layout: send_invite
+title: Home
+slug: home
+lead:
+base_url: "../"
+---
+<body onload="mixpanel.track('~page load: invite complete')">
+<main id="content" role="main">
+  <div class="jumbotron hero" style="padding-top:40px;margin-bottom:-80px;" id="home-invite">
+    <div class="container">
+      <div class="text-center">
+        <i class="fa fa-gift fa-4x fa-mom"></i>
+        <h2 class="home-lead">Mompreneur of the Year Award</h2>
+        <h3 class="home-sub">Nominate a Supermom to Win a HoneyBook Founding Membership!</h3>
+       <!--  <i class="fa fa-2x fa-chevron-down light text-center fa-home-container"></i> -->
+       <div class="well well-success">
+         <h5 class="">Success. Your nomination has been recorded! Know another amazing mompreneur? Don't be shy :)</h5>
+       </div>
+      </div>
+    </div>
+  </div>
+  {% include invite_send_mom.html %}
+</main>

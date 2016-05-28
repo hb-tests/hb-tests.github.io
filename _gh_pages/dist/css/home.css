@@ -237,7 +237,7 @@ input.hs-button:hover {
 
 .hbspt-form > label {
   display: inline-block;
-  margin-bottom: 5px; 
+  margin-bottom: 5px;
   font-weight: bold;
 }
 
@@ -306,7 +306,7 @@ input.hs-button:hover {
 
 #top {
   height: 600px;
-  background: #2E4051; 
+  background: #2E4051;
 }
 
 #home {
@@ -336,7 +336,7 @@ input.hs-button:hover {
 
 .home-sub {
   margin: 0 auto;
-  max-width: 60%;
+  max-width: 80%;
   color: rgba(255,255,255,0.8);
   font: 400 1.6em/1.5 sans-serif;
   color: #fff;
@@ -1024,7 +1024,7 @@ section.getting-started {
     top: -136px;
     width: 240px;
     left: auto;
-    right: auto; 
+    right: auto;
   }
 
   #company-7d98055d-a174-43d2-b202-d36657ea1f2e {

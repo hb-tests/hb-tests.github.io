@@ -2,7 +2,7 @@
 layout: send_invite
 title: Home
 slug: home
-lead: 
+lead:
 base_url: "../"
 ---
 <body onload="mixpanel.track('~page load: invite')">
@@ -10,13 +10,12 @@ base_url: "../"
   <div class="jumbotron hero" id="home-invite">
     <div class="container">
       <div class="text-center">
-        <img class="svg-send" src="https://dl.dropboxusercontent.com/u/11221717/honeybook/invite_message.svg" type="image/svg+xml"></img>
-        <h2 class="home-lead">Build The HoneyBook Community</h2>
-        <h3 class="home-sub">Bring the people you love to work with into HoneyBook by sending them an invite.</h3>
-       <!--  <i class="fa fa-2x fa-chevron-down light text-center fa-home-container"></i> -->
+        <!-- <i class="fa fa-heart-o fa-4x fa-mom"></i> -->
+        <h2 class="home-lead">Who's Your HoneyBFF (<em>BestFriendorForever</em>)</h2>
+        <h3 class="home-sub">Tell us about your BFF. Why you love them. Why you can't live without them. Why they'll be there forever and you and your BFF will both have a chance to win complimentary HoneyBook accounts.</h3>
+        <button type="button" class="btn btn-lg btn-started" name="button">I'M READY TO SHARE <i class="fa fa-heart-o"></i></button>
       </div>
     </div>
   </div>
-  {% include why_invite.html %} 
-  {% include invite_send.html %}
+  {% include invite_send_mom.html %}
 </main>
