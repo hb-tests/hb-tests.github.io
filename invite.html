@@ -9,13 +9,130 @@ base_url: "../"
 <main id="content" role="main">
   <div class="jumbotron hero" id="home-invite">
     <div class="container">
-      <div class="text-center">
-        <!-- <i class="fa fa-heart-o fa-4x fa-mom"></i> -->
+      <div class="row text-lg-center text-md-center text-sm-center text-xs-center">
         <h2 class="home-lead">Who's Your HoneyBFF (<em>BestFriendorForever</em>)</h2>
         <h3 class="home-sub">Tell us about your BFF. Why you love them. Why you can't live without them. Why they'll be there forever and you and your BFF will both have a chance to win complimentary HoneyBook accounts.</h3>
         <button type="button" class="btn btn-lg btn-started" name="button">I'M READY TO SHARE <i class="fa fa-heart-o"></i></button>
       </div>
     </div>
   </div>
-  {% include invite_send_mom.html %}
+  <section class="instructions">
+    <div class="container">
+      <div class="row text-lg-center text-md-center text-sm-center text-xs-center">
+        <h3 class="proof-title">Just Three Easy Steps</h3>
+        <div class="col-lg-12">
+          <p class="lead">Do you have a friend whose support has kept you going? Who is there to celebrate your successes and lend you an ear when the going gets tough? Is there a bud whose work ethic you admire, who you call for advice or who you endlessly find yourself referring when you’re booked? Show your gratitude by nominating them in our HoneyBook BFF contest today!</p>
+          <div class="row instruction-list">
+            <div class="col-lg-4">
+              <div class="card">
+                <div class="card-block">
+                  <p>1) Tell Us About Yourself</p>
+                  <img class="instruction-icon" src="https://dl.dropboxusercontent.com/u/11221717/bff_cover/person.svg" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card">
+                <div class="card-block">
+                  <p>2) Tell Us About Your Friend</p>
+                  <img class="instruction-icon" src="https://dl.dropboxusercontent.com/u/11221717/bff_cover/bubble.svg" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card">
+                <div class="card-block">
+                  <p>3) Recieve Your Free Trial. Get Started!</p>
+                  <img class="instruction-icon" src="https://dl.dropboxusercontent.com/u/11221717/bff_cover/present.svg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="invitation">
+    <div class="container">
+      <h3 class="invitation-title text-lg-center">Tell Us About Yourself</h3>
+      <div class="row">
+        <div class="invite-container">
+          <h3>About you:</h3>
+          <hr>
+          <form>
+            <fieldset class="form-group">
+              <!-- <label for="formGroupExampleInput">Example label</label> -->
+              <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Your Name">
+            </fieldset>
+            <fieldset class="form-group">
+              <!-- <label for="formGroupExampleInput2">Another label</label> -->
+              <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Your Email">
+            </fieldset>
+          </form>
+          <h3>About your friend:</h3>
+          <hr>
+          <form>
+            <fieldset class="form-group">
+              <!-- <label for="formGroupExampleInput">Example label</label> -->
+              <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Your friends' first name">
+            </fieldset>
+            <fieldset class="form-group">
+              <!-- <label for="formGroupExampleInput2">Another label</label> -->
+              <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Your friends' last name">
+            </fieldset>
+            <fieldset class="form-group">
+              <!-- <label for="formGroupExampleInput2">Another label</label> -->
+              <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Email">
+            </fieldset>
+            <fieldset class="form-group">
+              <!-- <label for="exampleTextarea">Example textarea</label> -->
+              <textarea class="form-control" id="exampleTextarea" rows="3" placeholder="Why you love your HoneyBFF..."></textarea>
+            </fieldset>
+          </form>
+          <button type="button" class="btn btn-lg btn-send" name="button">SEND INVITATION <i class="fa fa-envelope-o"></i></button>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+  <section class="proof">
+    <div class="container">
+      <div class="row text-lg-center text-md-center text-sm-center text-xs-center">
+        <h3 class="proof-title">Meet Other HoneyBFFs</h3>
+        <div class="col-lg-12">
+          <div class="col-lg-4">
+            <div class="card">
+              <img class="panel-header" style="background:url('https://instagram.fsnc1-1.fna.fbcdn.net/t51.2885-15/e35/13129219_232267427150396_1964611432_n.jpg?ig_cache_key=MTI0NDMxNDkyMjE4MDAxMzk2OA%3D%3D.2');background-size: cover;" alt="" />
+              <img class="bff-profile" src="https://instagram.fsnc1-1.fna.fbcdn.net/t51.2885-19/s320x320/10808505_1572808469702630_1023207498_a.jpg" alt="" />
+              <div class="card-block">
+                <h5 class="card-title">Brooke Michelle</h5>
+                <p>Brooke works really hard to put herself through school while running her business. She is killing it in the industry and she handles hardships in her life with such grace. She is always there to give me genuine advice, and always tells me exactly what I need to hear, instead of what I want to hear.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card">
+              <img class="panel-header" style="background:url('https://instagram.fsnc1-1.fna.fbcdn.net/t51.2885-15/e35/13129219_232267427150396_1964611432_n.jpg?ig_cache_key=MTI0NDMxNDkyMjE4MDAxMzk2OA%3D%3D.2');background-size: cover;" alt="" />
+              <img class="bff-profile" src="https://instagram.fsnc1-1.fna.fbcdn.net/t51.2885-19/s320x320/10808505_1572808469702630_1023207498_a.jpg" alt="" />
+              <div class="card-block">
+                <h5 class="card-title">Brooke Michelle</h5>
+                <p>Brooke works really hard to put herself through school while running her business. She is killing it in the industry and she handles hardships in her life with such grace. She is always there to give me genuine advice, and always tells me exactly what I need to hear, instead of what I want to hear.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card">
+              <img class="panel-header" style="background:url('https://instagram.fsnc1-1.fna.fbcdn.net/t51.2885-15/e35/13129219_232267427150396_1964611432_n.jpg?ig_cache_key=MTI0NDMxNDkyMjE4MDAxMzk2OA%3D%3D.2');background-size: cover;" alt="" />
+              <img class="bff-profile" src="https://instagram.fsnc1-1.fna.fbcdn.net/t51.2885-19/s320x320/10808505_1572808469702630_1023207498_a.jpg" alt="" />
+              <div class="card-block">
+                <h5 class="card-title">Brooke Michelle</h5>
+                <p>Brooke works really hard to put herself through school while running her business. She is killing it in the industry and she handles hardships in her life with such grace. She is always there to give me genuine advice, and always tells me exactly what I need to hear, instead of what I want to hear.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 </main>
