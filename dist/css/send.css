@@ -9,6 +9,7 @@ body {
 
 .jumbotron {
   margin-bottom: 0px;
+  border-radius: 0px;
 }
 
 #home-invite {
@@ -50,7 +51,8 @@ body {
 }
 
 .btn-started {
-  color: #fff;
+  width: 300px;
+  color: #b897dc;
   background: transparent;
   border: 2px solid #b897dc;
   border-radius: .25rem;
@@ -62,11 +64,13 @@ body {
 }
 
 .btn-started:hover,
-.btn-started:focus {
+.btn-started:focus,
+.btn-started:visited {
   color: #fff;
   background: #b897dc;
   border: 2px solid #b897dc;
   outline: 0px auto -webkit-focus-ring-color;
+  transition: all 0.3s ease 0s;
 }
 
 .instructions {
@@ -123,7 +127,8 @@ body {
 }
 
 .btn-send:hover,
-.btn-send:focus {
+.btn-send:focus,
+.btn-send:visited {
   color: #fff;
   border: 2px solid #b897dc;
   background: #b897dc;
@@ -135,6 +140,35 @@ body {
   font-size: 20px;
   font-weight: 700;
   outline: 0px auto -webkit-focus-ring-color;
+  transition: all 0.3s ease 0s;
+}
+
+.btn-follow-up {
+  width: 300px;
+  margin-top: 4rem;
+  color: #b897dc;
+  background: transparent;
+  border: 2px solid #b897dc;
+  border-radius: .25rem;
+  letter-spacing: 2px;
+  padding: 11px 22px;
+  font-family: 'Amatic SC', cursive;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.btn-follow-up:hover,
+.btn-follow-up:focus,
+.btn-follow-up:visited {
+  color: #fff;
+  background: #b897dc;
+  border: 2px solid #b897dc;
+  outline: 0px auto -webkit-focus-ring-color;
+  transition: all 0.3s ease 0s;
+}
+
+.form-title {
+  color: #fff;
 }
 
 .form-control {
@@ -153,12 +187,12 @@ body {
 }
 
 .form-control:focus {
-    border-color: #dfd0ef;
-    outline: none;
+  border-color: #dfd0ef;
+  outline: none;
 }
 
 .proof {
-  padding: 6rem 0;
+  padding: 6rem 0 4rem;
 }
 
 .proof-title {
@@ -189,6 +223,14 @@ body {
   border-width: 3px;
   border-style: solid;
   border-color: rgb(255, 255, 255);
+}
+
+.modal-content {
+  background: #4d3f5c;
+}
+
+.modal-header{
+  border-bottom: 1px solid #342a3e;
 }
 
 @media (max-width: 767px) {

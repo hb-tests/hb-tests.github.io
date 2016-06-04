@@ -12,7 +12,7 @@ base_url: "../"
       <div class="row text-lg-center text-md-center text-sm-center text-xs-center">
         <h2 class="home-lead">Who's Your HoneyBFF (<em>BestFriendorForever</em>)</h2>
         <h3 class="home-sub">Tell us about your BFF. Why you love them. Why you can't live without them. Why they'll be there forever and you and your BFF will both have a chance to win complimentary HoneyBook accounts.</h3>
-        <button type="button" class="btn btn-lg btn-started" name="button">I'M READY TO SHARE <i class="fa fa-heart-o"></i></button>
+        <a href="#invitation"><button type="button" href="#invitation" class="btn btn-lg btn-started" name="button">I'M READY TO SHARE <i class="fa fa-heart-o"></i></button></a>
       </div>
     </div>
   </div>
@@ -52,25 +52,29 @@ base_url: "../"
       </div>
     </div>
   </section>
-  <section class="invitation">
+  <section class="invitation" id="invitation">
     <div class="container">
       <h3 class="invitation-title text-lg-center">Tell Us About Yourself</h3>
       <div class="row">
         <div class="invite-container">
-          <h3>About you:</h3>
-          <hr>
+          <h5 class="form-title">About you:</h5>
+          <!-- <hr> -->
           <form>
             <fieldset class="form-group">
               <!-- <label for="formGroupExampleInput">Example label</label> -->
-              <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Your Name">
+              <input type="text" class="form-control" id="nominator_first_name" placeholder="Your First Name">
+            </fieldset>
+            <fieldset class="form-group">
+              <!-- <label for="formGroupExampleInput">Example label</label> -->
+              <input type="text" class="form-control" id="nominator_last_name" placeholder="Your Last Name">
             </fieldset>
             <fieldset class="form-group">
               <!-- <label for="formGroupExampleInput2">Another label</label> -->
-              <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Your Email">
+              <input type="text" class="form-control" id="nominator_email" placeholder="Your Email">
             </fieldset>
           </form>
-          <h3>About your friend:</h3>
-          <hr>
+          <h5 class="form-title">About your friend:</h5>
+          <!-- <hr> -->
           <form>
             <fieldset class="form-group">
               <!-- <label for="formGroupExampleInput">Example label</label> -->
@@ -89,7 +93,7 @@ base_url: "../"
               <textarea class="form-control" id="exampleTextarea" rows="3" placeholder="Why you love your HoneyBFF..."></textarea>
             </fieldset>
           </form>
-          <button type="button" class="btn btn-lg btn-send" name="button">SEND INVITATION <i class="fa fa-envelope-o"></i></button>
+          <button type="button" id="submit_btn" class="btn btn-lg btn-send" name="button">SEND INVITATION <i class="fa fa-envelope-o"></i></button>
         </div>
 
       </div>
@@ -131,6 +135,7 @@ base_url: "../"
               </div>
             </div>
           </div>
+          <a href="{{page.base_url}}honeybffs"><button type="button" class="btn btn-lg btn-follow-up" name="button">MEET MORE HONEYBFFs <i class="fa fa-heart-o"></i></button></a>
         </div>
       </div>
     </div>

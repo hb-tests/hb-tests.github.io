@@ -1,10 +1,5 @@
 $(document).ready(function() {
 
-  $('#home-btn').click(function() {
-    $('#home-btn').hide();
-    $('#home-form').show();
-  });
-
   //mixpanel track
   $('[track]').click(function() {
     mixpanel.track($(this).attr("track"))
@@ -15,84 +10,33 @@ $(document).ready(function() {
     mixpanel.track('~page scrolled');
   });
 
-  //signup
-  $('#home-sign-up').click(function () { 
-    $('#home-sign-up').hide()
-    // $('#google-signup').hide()
-    // $('#email-signup').hide()
-    // $('.divider').hide()
-    $('#lp-registration').show()
+
+  var nominatorFormHandlerURL = 'https://go.pardot.com/l/156821/2016-06-03/39g9f';
+  console.log('doo doo')
+  $('#submit_btn').on('click', function () {
+    console.log('herro')
+
+    $('body').append("<iframe id='pardot-nominator-handler' height='0' width='0' style='position:absolute; left:-100000px; top:-100000px' src='" + nominatorFormHandlerURL + "?firstname=" + $('#nominator_first_name').val() + "&lastname=" + $('#nominator_last_name').val() + "&email=" + $('#nominator_email').val() + "'></iframe>");
+    console.log('doo doo')
+    $('#pardot-nominator-handler').submit();
+    console.log('submitted')
   });
 
-  $('#home-sign-up-footer').click(function () { 
-    $('#home-btn').hide()
-    $('#home-form').show()
-    $("html, body").animate({ scrollTop: 0 }, 600);
-    return false;
-  });
 
-  //testimonials section
-  // $(".data-section-title").click(function() {
-  //     obj = $(this)
-  //     data_toggable_family = obj.parent().data("toggable-target-family");
-  //     console.log($(this))
-  //     data_toggable_name = obj.data("toggable-target-name");
-  //     obj.siblings().removeClass("active");
-  //     obj.addClass('active');
+    function sendNominee () {
+    var pardotFormHandlerURL = 'https://go.pardot.com/l/156821/2016-06-03/39g9h';
 
-  //     $("[data-toggable-family='"+data_toggable_family+"']").children().hide();
-  //     $("[data-toggable-family='"+data_toggable_family+"']").children("[data-toggable-name='"+ data_toggable_name+"']").show();
-  // });
+    $('#contract_btn').on('click', function () {
 
-  $('.hs-button').click(function () {
-    mixpanel.track("~request invite button");
-  });
+      $('body').append("<iframe id='pardot-nominator-handler' height='0' width='0' style='position:absolute; left:-100000px; top:-100000px' src='" + pardotFormHandlerURL + "?email=" + $('#prospectEmail').val() + "'></iframe>");
+      console.log('doo doo')
+      $('#pardot-nominee-handler').submit();
+      console.log('submitted')
+    });
+  }
 
-  //testimonials section
-  $('#data-section-1').click(function () {
-      $('#avatar-1').addClass('avatar-active')
-      $('#avatar-2').removeClass('avatar-active')
-      $('#avatar-3').removeClass('avatar-active')
-      $('#avatar-4').removeClass('avatar-active')
-      $('#testimonial-1').addClass('active')
-      $('#testimonial-2').removeClass('active')
-      $('#testimonial-3').removeClass('active')
-      $('#testimonial-4').removeClass('active')
-      mixpanel.track('~stationary')
-  });
-  $('#data-section-2').click(function () {
-      $('#avatar-1').removeClass('avatar-active')
-      $('#avatar-2').addClass('avatar-active')
-      $('#avatar-3').removeClass('avatar-active')
-      $('#avatar-4').removeClass('avatar-active')
-      $('#testimonial-1').removeClass('active')
-      $('#testimonial-2').addClass('active')
-      $('#testimonial-3').removeClass('active')
-      $('#testimonial-4').removeClass('active')
-      mixpanel.track('~photography')
-  });
-  $('#data-section-3').click(function () {
-      $('#avatar-1').removeClass('avatar-active')
-      $('#avatar-2').removeClass('avatar-active')
-      $('#avatar-3').addClass('avatar-active')
-      $('#avatar-4').removeClass('avatar-active')
-      $('#testimonial-1').removeClass('active')
-      $('#testimonial-2').removeClass('active')
-      $('#testimonial-3').addClass('active')
-      $('#testimonial-4').removeClass('active')
-      mixpanel.track('~event planner a')
-  });
-  $('#data-section-4').click(function () {
-      $('#avatar-1').removeClass('avatar-active')
-      $('#avatar-2').removeClass('avatar-active')
-      $('#avatar-3').removeClass('avatar-active')
-      $('#avatar-4').addClass('avatar-active')
-      $('#testimonial-1').removeClass('active')
-      $('#testimonial-2').removeClass('active')
-      $('#testimonial-3').removeClass('active')
-      $('#testimonial-4').addClass('active')
-      mixpanel.track('~event planner b')
-  });
+  window.onload
+
 
   // jQuery(function() {
   //   var menu = jQuery(".navbar.navbar-default.navbar-fixed-top");
