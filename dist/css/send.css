@@ -3,8 +3,9 @@ body {
   font-weight: 300;
 }
 
-.navbar.navbar-default {
-  position: absolute;
+.navbar.navbar-default.navbar-fill {
+  background: rgba(0,0,0,.5) !important;
+  transition: all 0.3s ease 0s;
 }
 
 .jumbotron {
@@ -19,7 +20,7 @@ body {
   padding-top: 200px;
   right: 0;
   left: 0;
-  background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("https://dl.dropboxusercontent.com/u/11221717/bff_cover/BFF-32.jpg") center 25%;
+  background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("https://s3-us-west-2.amazonaws.com/invite.honeybook.com/assets/img/BFF-32.jpg") center 25%;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -39,7 +40,7 @@ body {
   font-size: 70px;
   font-weight: 400;
   /*text-transform: uppercase;*/
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Amatic SC', sans-serif;
 }
 
 .home-sub {
@@ -50,6 +51,10 @@ body {
   font-weight: 400;
 }
 
+p.success_message {
+  margin-bottom: 0rem;
+}
+
 .btn-started {
   width: 300px;
   color: #b897dc;
@@ -58,7 +63,7 @@ body {
   border-radius: .25rem;
   letter-spacing: 2px;
   padding: 11px 22px;
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Amatic SC', sans-serif;
   font-size: 20px;
   font-weight: 700;
 }
@@ -139,6 +144,39 @@ body {
   font-family: 'Amatic SC', cursive;
   font-size: 20px;
   font-weight: 700;
+  outline: 0px auto -webkit-focus-ring-color;
+  transition: all 0.3s ease 0s;
+}
+
+#nav_invitation {
+  width: 200px;
+  float: right;
+}
+
+.btn-nav {
+  display: none;
+  width: 200px;
+  float: right;
+  color: #fff;
+  background: transparent;
+  border: 2px solid #b897dc;
+  border-radius: .25rem;
+  letter-spacing: 2px;
+  margin-top: 4px;
+  margin-right: 4px;
+  padding: 6px 22px;
+  width: 100%;
+  font-family: 'Amatic SC', cursive;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.btn-nav:hover,
+.btn-nav:focus,
+.btn-nav:visited {
+  color: #fff;
+  border: 2px solid #b897dc;
+  background: #b897dc;
   outline: 0px auto -webkit-focus-ring-color;
   transition: all 0.3s ease 0s;
 }

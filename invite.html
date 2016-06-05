@@ -54,46 +54,55 @@ base_url: "../"
   </section>
   <section class="invitation" id="invitation">
     <div class="container">
-      <h3 class="invitation-title text-lg-center">Tell Us About Yourself</h3>
       <div class="row">
         <div class="invite-container">
-          <h5 class="form-title">About you:</h5>
+          <div id="nominator_container">
+          <h3 class="invitation-title text-lg-center">Step 1: Tell Us About Yourself</h3>
           <!-- <hr> -->
-          <form>
-            <fieldset class="form-group">
-              <!-- <label for="formGroupExampleInput">Example label</label> -->
-              <input type="text" class="form-control" id="nominator_first_name" placeholder="Your First Name">
-            </fieldset>
-            <fieldset class="form-group">
-              <!-- <label for="formGroupExampleInput">Example label</label> -->
-              <input type="text" class="form-control" id="nominator_last_name" placeholder="Your Last Name">
-            </fieldset>
-            <fieldset class="form-group">
-              <!-- <label for="formGroupExampleInput2">Another label</label> -->
-              <input type="text" class="form-control" id="nominator_email" placeholder="Your Email">
-            </fieldset>
-          </form>
-          <h5 class="form-title">About your friend:</h5>
+            <form>
+              <fieldset class="form-group">
+                <!-- <label for="formGroupExampleInput">Example label</label> -->
+                <input type="text" class="form-control" id="nominator_first_name" placeholder="Your First Name">
+              </fieldset>
+              <fieldset class="form-group">
+                <!-- <label for="formGroupExampleInput">Example label</label> -->
+                <input type="text" class="form-control" id="nominator_last_name" placeholder="Your Last Name">
+              </fieldset>
+              <fieldset class="form-group">
+                <!-- <label for="formGroupExampleInput2">Another label</label> -->
+                <input type="text" class="form-control" id="nominator_email" placeholder="Your Email">
+              </fieldset>
+            </form>
+            <button type="button" id="nominator_btn" class="btn btn-lg btn-send" name="button">GET STARTED</button>
+          </div>
+          <div id="nominee_container" style="display:none;">
+          <h3 class="invitation-title text-lg-center" id="nominee_title">Step 2: Tell Us About Your BFF</h3>
+          <div class="card" id="nominee_success" style="display:none;">
+            <div class="card-block text-sm-center">
+              <p class="success_message"><strong>Success: Your BFF is one lucky duck! Have any more?</strong></p>
+            </div>
+          </div>
           <!-- <hr> -->
-          <form>
-            <fieldset class="form-group">
-              <!-- <label for="formGroupExampleInput">Example label</label> -->
-              <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Your friends' first name">
-            </fieldset>
-            <fieldset class="form-group">
-              <!-- <label for="formGroupExampleInput2">Another label</label> -->
-              <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Your friends' last name">
-            </fieldset>
-            <fieldset class="form-group">
-              <!-- <label for="formGroupExampleInput2">Another label</label> -->
-              <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Email">
-            </fieldset>
-            <fieldset class="form-group">
-              <!-- <label for="exampleTextarea">Example textarea</label> -->
-              <textarea class="form-control" id="exampleTextarea" rows="3" placeholder="Why you love your HoneyBFF..."></textarea>
-            </fieldset>
-          </form>
-          <button type="button" id="submit_btn" class="btn btn-lg btn-send" name="button">SEND INVITATION <i class="fa fa-envelope-o"></i></button>
+            <form>
+              <fieldset class="form-group">
+                <!-- <label for="formGroupExampleInput">Example label</label> -->
+                <input type="text" class="form-control" id="nominee_first_name" placeholder="Your friends' first name">
+              </fieldset>
+              <fieldset class="form-group">
+                <!-- <label for="formGroupExampleInput2">Another label</label> -->
+                <input type="text" class="form-control" id="nominee_last_name" placeholder="Your friends' last name">
+              </fieldset>
+              <fieldset class="form-group">
+                <!-- <label for="formGroupExampleInput2">Another label</label> -->
+                <input type="text" class="form-control" id="nominee_email" placeholder="Email">
+              </fieldset>
+              <fieldset class="form-group">
+                <!-- <label for="exampleTextarea">Example textarea</label> -->
+                <textarea class="form-control" id="nominee_message" rows="3" placeholder="Why you love your HoneyBFF..."></textarea>
+              </fieldset>
+            </form>
+            <button type="button" id="nominee_btn" class="btn btn-lg btn-send" name="button">SEND INVITATION <i class="fa fa-envelope-o"></i></button>
+          </div>
         </div>
 
       </div>
@@ -101,11 +110,33 @@ base_url: "../"
     </div>
   </section>
   <section class="proof">
-    <div class="container">
-      <div class="row text-lg-center text-md-center text-sm-center text-xs-center">
+    <div class="container text-lg-center text-md-center text-sm-center text-xs-center">
+      <div class="row">
         <h3 class="proof-title">Meet Other HoneyBFFs</h3>
-        <div class="col-lg-12">
+          <div class="col-lg-2"></div>
           <div class="col-lg-4">
+            <div class="card">
+              <img class="panel-header" style="background:url('https://instagram.fsnc1-1.fna.fbcdn.net/t51.2885-15/e35/13129219_232267427150396_1964611432_n.jpg?ig_cache_key=MTI0NDMxNDkyMjE4MDAxMzk2OA%3D%3D.2');background-size: cover;" alt="" />
+              <img class="bff-profile" src="https://instagram.fsnc1-1.fna.fbcdn.net/t51.2885-19/s320x320/10808505_1572808469702630_1023207498_a.jpg" alt="" />
+              <div class="card-block">
+                <h5 class="card-title">Brooke Michelle</h5>
+                <p>Brooke works really hard to put herself through school while running her business. She is killing it in the industry and she handles hardships in her life with such grace. She is always there to give me genuine advice, and always tells me exactly what I need to hear, instead of what I want to hear.</p>
+                <p>- Madison Short</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card">
+              <img class="panel-header" style="background:url('https://instagram.fsnc1-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/12965753_605218839625664_811022825_n.jpg?ig_cache_key=MTIyOTA3NDk4NTI5OTI0MTQyMg%3D%3D.2');background-size: cover;" alt="" />
+              <img class="bff-profile" src="https://instagram.fsnc1-1.fna.fbcdn.net/t51.2885-19/s320x320/12558548_752844234846274_1094061641_a.jpg" alt="" />
+              <div class="card-block">
+                <h5 class="card-title">Adrienne Rolon</h5>
+                <p>Adrienne of Hearts Content Events in Virginia is an incredible mother, genuine friend, talented artist, and an inspiring entrepreneur who is moving mountains in this industry. I am constantly inspired by her!</p>
+                <p>- Natalie Franke</p>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="col-lg-4">
             <div class="card">
               <img class="panel-header" style="background:url('https://instagram.fsnc1-1.fna.fbcdn.net/t51.2885-15/e35/13129219_232267427150396_1964611432_n.jpg?ig_cache_key=MTI0NDMxNDkyMjE4MDAxMzk2OA%3D%3D.2');background-size: cover;" alt="" />
               <img class="bff-profile" src="https://instagram.fsnc1-1.fna.fbcdn.net/t51.2885-19/s320x320/10808505_1572808469702630_1023207498_a.jpg" alt="" />
@@ -114,29 +145,11 @@ base_url: "../"
                 <p>Brooke works really hard to put herself through school while running her business. She is killing it in the industry and she handles hardships in her life with such grace. She is always there to give me genuine advice, and always tells me exactly what I need to hear, instead of what I want to hear.</p>
               </div>
             </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="card">
-              <img class="panel-header" style="background:url('https://instagram.fsnc1-1.fna.fbcdn.net/t51.2885-15/e35/13129219_232267427150396_1964611432_n.jpg?ig_cache_key=MTI0NDMxNDkyMjE4MDAxMzk2OA%3D%3D.2');background-size: cover;" alt="" />
-              <img class="bff-profile" src="https://instagram.fsnc1-1.fna.fbcdn.net/t51.2885-19/s320x320/10808505_1572808469702630_1023207498_a.jpg" alt="" />
-              <div class="card-block">
-                <h5 class="card-title">Brooke Michelle</h5>
-                <p>Brooke works really hard to put herself through school while running her business. She is killing it in the industry and she handles hardships in her life with such grace. She is always there to give me genuine advice, and always tells me exactly what I need to hear, instead of what I want to hear.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="card">
-              <img class="panel-header" style="background:url('https://instagram.fsnc1-1.fna.fbcdn.net/t51.2885-15/e35/13129219_232267427150396_1964611432_n.jpg?ig_cache_key=MTI0NDMxNDkyMjE4MDAxMzk2OA%3D%3D.2');background-size: cover;" alt="" />
-              <img class="bff-profile" src="https://instagram.fsnc1-1.fna.fbcdn.net/t51.2885-19/s320x320/10808505_1572808469702630_1023207498_a.jpg" alt="" />
-              <div class="card-block">
-                <h5 class="card-title">Brooke Michelle</h5>
-                <p>Brooke works really hard to put herself through school while running her business. She is killing it in the industry and she handles hardships in her life with such grace. She is always there to give me genuine advice, and always tells me exactly what I need to hear, instead of what I want to hear.</p>
-              </div>
-            </div>
-          </div>
-          <a href="{{page.base_url}}honeybffs"><button type="button" class="btn btn-lg btn-follow-up" name="button">MEET MORE HONEYBFFs <i class="fa fa-heart-o"></i></button></a>
+          </div> -->
         </div>
+      </div>
+      <div class="row text-lg-center text-md-center text-sm-center text-xs-center">
+         <a href="{{page.base_url}}honeybffs"><button type="button" class="btn btn-lg btn-follow-up" name="button">MEET MORE HONEYBFFs <i class="fa fa-heart-o"></i></button></a>
       </div>
     </div>
   </section>
