@@ -37,10 +37,8 @@ $(document).ready(function() {
         var scroll = jQuery(window).scrollTop();
         if (scroll >= 10) {
          menu.addClass("navbar-fill");
-         btn.show();
     } else {
         menu.removeClass("navbar-fill");
-        btn.hide();
       }
     });
   });
